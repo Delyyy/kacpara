@@ -1,8 +1,9 @@
 import requests
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from statistics import median
+from urllib.parse import quote
 
 # Windows konsolu UTF-8 yap (emoji sorunu icin)
 if sys.stdout.encoding.lower() != "utf-8":
@@ -80,8 +81,29 @@ def normalize(s):
     tr = str.maketrans("çğıöşüâîéèêëáàäóòôúùûñ", "cgiosuaieeeeaaaooouuun")
     return s.translate(tr)
 
+TAZE_GUN = 7         # Son 7 gunden eski veri alma
+MIN_MARKET = 2       # En az 2 farkli markette satilmali
+
+def parse_index_time(s):
+    """API'nin indexTime alani genelde '19.04.2026 12:05:33' formatinda."""
+    if not s:
+        return None
+    for fmt in ("%d.%m.%Y %H:%M:%S", "%d.%m.%Y %H:%M", "%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            return datetime.strptime(s, fmt)
+        except Exception:
+            continue
+    return None
+
 def fiyat_bul(urun):
-    """Bir urun icin uygun fiyati bulur. Medyan fiyat doner."""
+    """Bir urun icin uygun fiyati bulur.
+    Filtreden gecen TUM eslesen urunlerin TUM marketlerdeki fiyatlarini
+    bir havuzda toplar ve medyanini doner. Boylece daha gercekci sonuc.
+
+    Ek guvenlik:
+      - Son 7 gunden eski fiyatlari dikkate almaz
+      - En az 2 farkli market olmalidir
+    """
     try:
         r = requests.post(API_URL, headers=HEADERS, json={"keywords": urun["q"], "pages": 0, "size": 20}, timeout=10)
         if r.status_code != 200:
@@ -94,6 +116,13 @@ def fiyat_bul(urun):
         istenen = [normalize(k.strip()) for k in urun.get("istenen", "").split(",") if k.strip()]
         istenmeyen = [normalize(k.strip()) for k in urun.get("istenmeyen", "").split(",") if k.strip()]
 
+        taze_sinir = datetime.now() - timedelta(days=TAZE_GUN)
+
+        # Tum eslesen urunlerin fiyatlarini havuzda topla
+        havuz_fiyatlar = []
+        market_fiyatlari = {}  # market_adi -> [fiyat, fiyat, ...]
+        eslesen_basliklar = []
+
         for p in products:
             t = normalize(p["title"])
             # Istenmeyen kelime varsa atla
@@ -102,23 +131,50 @@ def fiyat_bul(urun):
             # Istenen kelimelerin HEPSI bulunmali
             if istenen and not all(req in t for req in istenen):
                 continue
-            # Depot listesinden tum fiyatlar
+            # Bu urunun tum depot fiyatlarini havuza ekle (taze olanlar)
             depot_list = p.get("productDepotInfoList", [])
-            fiyatlar = [d.get("price") for d in depot_list if d.get("price") and d.get("price") > 0]
-            if not fiyatlar:
-                continue
-            # Medyan fiyat (uc degerleri elemeye yarar)
-            med_fiyat = round(median(fiyatlar), 2)
-            marketler = sorted(set(d.get("marketAdi","") for d in depot_list))
-            return {
-                "emoji": urun["emoji"],
-                "isim": urun["isim"],
-                "bilgi": urun["bilgi"],
-                "fiyat": med_fiyat,
-                "kac_market": len(marketler),
-                "api_baslik": p["title"],
-            }
-        return None
+            eklendi = False
+            for d in depot_list:
+                fiyat = d.get("price")
+                if not fiyat or fiyat <= 0:
+                    continue
+                # Taze veri filtresi: eski ise atla (indexTime yoksa kabul et)
+                idx = parse_index_time(d.get("indexTime") or p.get("indexTime"))
+                if idx and idx < taze_sinir:
+                    continue
+                market_adi = d.get("marketAdi", "") or "Bilinmeyen"
+                havuz_fiyatlar.append(fiyat)
+                market_fiyatlari.setdefault(market_adi, []).append(fiyat)
+                eklendi = True
+            if eklendi:
+                eslesen_basliklar.append(p["title"])
+
+        # Guven esigi: en az MIN_MARKET farkli market olmali
+        if not havuz_fiyatlar or len(market_fiyatlari) < MIN_MARKET:
+            return None
+
+        # Havuzun medyani (uc degerleri eler, A101/BIM/Migros karmasinda dengeli)
+        med_fiyat = round(median(havuz_fiyatlar), 2)
+
+        # Her market icin medyan fiyati cikar, fiyata gore sirala (detay gosterimi)
+        detay = []
+        for market_adi, fiyatlar in market_fiyatlari.items():
+            detay.append({
+                "market": market_adi,
+                "fiyat": round(median(fiyatlar), 2),
+            })
+        detay.sort(key=lambda x: x["fiyat"])
+
+        return {
+            "emoji": urun["emoji"],
+            "isim": urun["isim"],
+            "bilgi": urun["bilgi"],
+            "fiyat": med_fiyat,
+            "kac_market": len(market_fiyatlari),
+            "kac_kayit": len(havuz_fiyatlar),
+            "api_baslik": eslesen_basliklar[0] if eslesen_basliklar else "",
+            "detay": detay,
+        }
     except Exception:
         return None
 
@@ -128,7 +184,7 @@ for urun in URUNLER:
     sonuc = fiyat_bul(urun)
     if sonuc:
         fiyatlar.append(sonuc)
-        print(f"  {sonuc['emoji']} {sonuc['isim']:30s} {sonuc['fiyat']:>7.2f} TL  ({sonuc['kac_market']} market)")
+        print(f"  {sonuc['emoji']} {sonuc['isim']:30s} {sonuc['fiyat']:>7.2f} TL  ({sonuc['kac_market']} market, {sonuc['kac_kayit']} kayit)")
     else:
         basarisiz.append(urun["isim"])
         print(f"  X  {urun['isim']:30s} (bulunamadi)")
@@ -136,7 +192,7 @@ for urun in URUNLER:
 sonuc_data = {
     "guncelleme": datetime.now().strftime("%Y-%m-%d %H:%M"),
     "kaynak": "marketfiyati.org.tr (A101, BIM, Migros, Carrefour, SOK, TK)",
-    "not": "Her urunun fiyati: o urunu satan marketlerin medyanidir",
+    "not": "Fiyat = eslesen tum urunlerin tum market fiyatlarinin medyani. Son 7 gun icinde guncellenmis, en az 2 market sarti.",
     "toplam_urun": len(fiyatlar),
     "urunler": fiyatlar,
 }

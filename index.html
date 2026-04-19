@@ -18,6 +18,8 @@
   .progress b { color: #1a1a1a; font-weight: 600; }
   .card { background: #fff; border-radius: 16px; padding: 28px 20px; text-align: center; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
   .emoji { font-size: 64px; margin-bottom: 12px; line-height: 1; }
+  .product-img { width: 160px; height: 160px; object-fit: contain; border-radius: 14px; margin: 0 auto 14px; display: block; background: #fafafa; padding: 8px; }
+  .product-img-fallback { display: flex; align-items: center; justify-content: center; font-size: 64px; }
   .name { font-size: 20px; font-weight: 600; margin-bottom: 6px; letter-spacing: -0.3px; }
   .info { font-size: 13px; color: #6b7280; }
   .live-badge { display: inline-block; background: #d1fae5; color: #059669; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-top: 6px; }
@@ -54,6 +56,16 @@
   .diff-row { text-align: center; padding: 14px 0; border-top: 1px solid #f0f2f5; margin-bottom: 4px; }
   .diff-label { font-size: 13px; color: #6b7280; margin-bottom: 4px; }
   .diff-value { font-size: 18px; font-weight: 600; }
+  .source-link { text-align: center; margin-top: 10px; padding-top: 10px; border-top: 1px dashed #e5e7eb; }
+  .source-link a { font-size: 12px; color: #6b7280; text-decoration: none; }
+  .source-link a:hover { color: #1a1a1a; text-decoration: underline; }
+  .detay { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #e5e7eb; }
+  .detay-title { font-size: 11px; color: #9ca3af; text-align: center; margin-bottom: 8px; letter-spacing: 0.3px; text-transform: uppercase; }
+  .detay-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 14px; }
+  .detay-row { display: flex; justify-content: space-between; font-size: 13px; padding: 2px 0; }
+  .detay-market { color: #6b7280; text-transform: capitalize; }
+  .detay-fiyat { color: #1a1a1a; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .detay-note { font-size: 11px; color: #9ca3af; text-align: center; margin-top: 8px; font-style: italic; }
   .stats-card { background: #fff; border-radius: 16px; padding: 18px 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
   .stats-title { text-align: center; font-size: 14px; font-weight: 600; color: #6b7280; margin-bottom: 14px; }
   .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -85,12 +97,13 @@
 
   <div id="game" style="display:none;">
     <div class="progress">
-      <span>Soru <b id="qnum">1</b> / 5</span>
+      <span>Soru <b id="qnum">1</b> / <b id="qtotal">1</b></span>
       <span>Skor: <b id="score">0</b></span>
     </div>
 
     <div class="card">
-      <div class="emoji" id="emoji">🍅</div>
+      <img id="product-img" class="product-img" alt="" style="display:none;">
+      <div class="emoji" id="emoji" style="display:none;">🍅</div>
       <div class="name" id="name">Yükleniyor</div>
       <div class="info" id="info"></div>
       <div id="live-badge" class="live-badge" style="display:none;">● Canlı veri</div>
@@ -125,6 +138,11 @@
           <div class="diff-label">Fark</div>
           <div class="diff-value" id="r-diff">%0</div>
         </div>
+        <div class="detay" id="r-detay" style="display:none;">
+          <div class="detay-title">Market Fiyatları</div>
+          <div class="detay-grid" id="r-detay-grid"></div>
+          <div class="detay-note" id="r-detay-note"></div>
+        </div>
       </div>
       <div class="stats-card">
         <div class="stats-title">Oyun İstatistikleri</div>
@@ -148,7 +166,7 @@
   <div id="end" style="display:none;" class="end">
     <div class="end-emoji" id="end-emoji">🏆</div>
     <div class="end-title" id="end-title">Muhteşem!</div>
-    <div class="end-score">Skorun: <b id="final-score">0</b> / 500 · Ortalama yakınlık: <b id="final-avg">%0</b></div>
+    <div class="end-score">Skorun: <b id="final-score">0</b> / <b id="final-max">500</b> · Ortalama yakınlık: <b id="final-avg">%0</b></div>
     <button class="btn-primary" id="restart-btn">Yeniden oyna</button>
   </div>
 
@@ -169,44 +187,33 @@ const STATIC_PRODUCTS = [
   {emoji:"🍫", name:"Eti Crax 100 gr", info:"Market", answer:38},
   {emoji:"☕", name:"Starbucks latte (grande)", info:"İstanbul ortalama", answer:155},
   {emoji:"🍺", name:"Efes Pilsen 50 cl", info:"Bakkal · kutu", answer:95},
-  {emoji:"🚕", name:"Kadıköy-Beşiktaş taksi", info:"Gündüz · vapur hariç", answer:220},
-  {emoji:"🚌", name:"İETT tam bilet", info:"Tek kullanım", answer:27},
-  {emoji:"⛴️", name:"İDO Bostancı-Kabataş", info:"Vapur · tam", answer:55},
-  {emoji:"🚇", name:"Marmaray Üsküdar-Ayrılık", info:"Tek yön · tam", answer:30},
   {emoji:"⛽", name:"1 L benzin", info:"95 oktan", answer:62},
-  {emoji:"🍔", name:"Big Mac menü", info:"McDonald's İstanbul", answer:295},
   {emoji:"🍕", name:"Domino's orta pizza", info:"1 kişilik menü", answer:345},
   {emoji:"🥙", name:"Tavuk döner dürüm", info:"Orta seviye zincir", answer:135},
-  {emoji:"🍲", name:"Ev yemeği tabldot", info:"Esnaf lokantası", answer:185},
-  {emoji:"🍱", name:"Restoran ana yemek", info:"Orta sınıf · İstanbul", answer:385},
-  {emoji:"🐟", name:"Levrek porsiyon", info:"Orta seviye balıkçı", answer:485},
-  {emoji:"💇", name:"Erkek saç tıraşı", info:"Semt berberi · İstanbul", answer:350},
-  {emoji:"💅", name:"Kadın manikür", info:"Orta segment salon", answer:550},
   {emoji:"🚬", name:"Marlboro Red paket", info:"Bakkal", answer:115},
-  {emoji:"🎬", name:"Sinema bileti", info:"CineMaximum · hafta içi", answer:245},
-  {emoji:"📺", name:"Netflix standart paket", info:"Aylık", answer:249},
-  {emoji:"🏟️", name:"GS-FB derbi bileti", info:"Tribün · en ucuz", answer:4500},
-  {emoji:"🎫", name:"Stand-up bileti", info:"Orta popüler komedyen", answer:650},
   {emoji:"📱", name:"iPhone 16 Pro 256 GB", info:"Apple Türkiye resmi", answer:95000},
   {emoji:"💻", name:"MacBook Air M4 13\"", info:"256 GB · resmi", answer:75000},
-  {emoji:"🎧", name:"AirPods 4", info:"Apple Türkiye resmi", answer:8500},
-  {emoji:"📶", name:"TT 100 Mbps fiber", info:"Ev interneti · aylık", answer:649},
-  {emoji:"📚", name:"YKS matematik kitabı", info:"Güncel yayın", answer:245},
-  {emoji:"🩺", name:"Özel hastane muayene", info:"SGK'sız · orta segment", answer:1850},
-  {emoji:"💊", name:"Parol 500 mg 20'li", info:"Eczane", answer:45},
-  {emoji:"🏠", name:"Nişantaşı 1 m² kira", info:"2+1 ortalama", answer:850}
+  {emoji:"🎧", name:"AirPods 4", info:"Apple Türkiye resmi", answer:8500}
 ];
 
-const DOVIZ_URL  = "https://delyyy.github.io/kacpara/otomatik_fiyatlar.json";
-const MARKET_URL = "https://delyyy.github.io/kacpara/otomatik_market.json";
+const DOVIZ_URL  = "otomatik_fiyatlar.json";
+const MARKET_URL = "otomatik_market.json";
+const RESIM_URL  = "resimler.json";
+
+let IMG_MAP = {};
 
 let ALL_PRODUCTS = [];
 
 async function loadLivePrices() {
-  const [dovizRes, marketRes] = await Promise.allSettled([
+  const [dovizRes, marketRes, resimRes] = await Promise.allSettled([
     fetch(DOVIZ_URL  + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
     fetch(MARKET_URL + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
+    fetch(RESIM_URL  + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
   ]);
+
+  if (resimRes.status === "fulfilled") {
+    IMG_MAP = resimRes.value.resimler || {};
+  }
 
   const liveProducts = [];
 
@@ -219,7 +226,8 @@ async function loadLivePrices() {
         name: bilgi.isim,
         info: "Canlı · " + data.guncelleme,
         answer: Math.round(bilgi.fiyat * 100) / 100,
-        isLive: true
+        isLive: true,
+        img: IMG_MAP[kod] || null
       });
     }
   }
@@ -231,14 +239,19 @@ async function loadLivePrices() {
       liveProducts.push({
         emoji: u.emoji,
         name: u.isim,
-        info: (u.bilgi || "Market") + " · canlı",
+        info: (u.bilgi || "Market") + " · " + (u.kac_market || 0) + " market",
         answer: Math.round(u.fiyat * 100) / 100,
-        isLive: true
+        isLive: true,
+        detay: u.detay || null,
+        img: IMG_MAP[u.isim] || null
       });
     }
   }
 
-  ALL_PRODUCTS = [...liveProducts, ...STATIC_PRODUCTS];
+  // Sabit urunlere de resim ekle
+  const staticWithImg = STATIC_PRODUCTS.map(p => ({ ...p, img: IMG_MAP[p.name] || null }));
+
+  ALL_PRODUCTS = [...liveProducts, ...staticWithImg];
 
   document.getElementById('loading').style.display = 'none';
   document.getElementById('game').style.display = 'block';
@@ -269,7 +282,8 @@ const percentages = [];
 document.getElementById('date-str').textContent = formatDate() + ' · Test versiyonu';
 
 function startNewGame() {
-  questions = shuffleArray(ALL_PRODUCTS).slice(0, 5);
+  questions = shuffleArray(ALL_PRODUCTS);
+  document.getElementById('qtotal').textContent = questions.length;
   current = 0;
   score = 0;
   results.length = 0;
@@ -282,7 +296,23 @@ function startNewGame() {
 
 function loadQuestion() {
   const q = questions[current];
-  document.getElementById('emoji').textContent = q.emoji;
+  const imgEl = document.getElementById('product-img');
+  const emojiEl = document.getElementById('emoji');
+  if (q.img) {
+    imgEl.src = q.img;
+    imgEl.alt = q.name;
+    imgEl.style.display = 'block';
+    emojiEl.style.display = 'none';
+    imgEl.onerror = () => {
+      imgEl.style.display = 'none';
+      emojiEl.textContent = q.emoji;
+      emojiEl.style.display = 'block';
+    };
+  } else {
+    imgEl.style.display = 'none';
+    emojiEl.textContent = q.emoji;
+    emojiEl.style.display = 'block';
+  }
   document.getElementById('name').textContent = q.name;
   document.getElementById('info').textContent = q.info;
   document.getElementById('qnum').textContent = current + 1;
@@ -332,6 +362,24 @@ function submitGuess() {
   document.getElementById('r-guess').textContent = '₺' + guess.toLocaleString('tr-TR');
   document.getElementById('r-real').textContent = '₺' + q.answer.toLocaleString('tr-TR');
   document.getElementById('r-diff').textContent = `%${pct.toFixed(1)} (₺${diff.toLocaleString('tr-TR', {maximumFractionDigits: 0})})`;
+  const detayWrap = document.getElementById('r-detay');
+  const detayGrid = document.getElementById('r-detay-grid');
+  const detayNote = document.getElementById('r-detay-note');
+  if (q.detay && q.detay.length > 0) {
+    const marketAdlari = {
+      a101: 'A101', bim: 'BİM', migros: 'Migros', sok: 'ŞOK',
+      carrefour: 'Carrefour', tarim_kredi: 'Tarım Kredi',
+      file: 'File', hakmar: 'Hakmar', onur: 'Onur', ozhan: 'Özhan'
+    };
+    detayGrid.innerHTML = q.detay.map(d => {
+      const ad = marketAdlari[d.market] || d.market;
+      return `<div class="detay-row"><span class="detay-market">${ad}</span><span class="detay-fiyat">₺${d.fiyat.toLocaleString('tr-TR')}</span></div>`;
+    }).join('');
+    detayNote.textContent = `Medyan: ₺${q.answer.toLocaleString('tr-TR')} · kaynak: marketfiyati.org.tr`;
+    detayWrap.style.display = 'block';
+  } else {
+    detayWrap.style.display = 'none';
+  }
   document.getElementById('s-round').textContent = current + 1;
   const avg = percentages.reduce((a,b) => a+b, 0) / percentages.length;
   document.getElementById('s-avg').textContent = `%${avg.toFixed(1)}`;
@@ -352,12 +400,15 @@ function endGame() {
   document.getElementById('game').style.display = 'none';
   document.getElementById('end').style.display = 'block';
   document.getElementById('final-score').textContent = score;
+  const maxScore = questions.length * 100;
+  document.getElementById('final-max').textContent = maxScore;
   const avg = percentages.reduce((a,b) => a+b, 0) / percentages.length;
   document.getElementById('final-avg').textContent = `%${avg.toFixed(1)}`;
+  const pctScore = (score / maxScore) * 100;
   let endEmoji = '🏆', endTitle = 'Muhteşem!';
-  if (score < 150) { endEmoji = '😅'; endTitle = 'Enflasyon yendi seni'; }
-  else if (score < 300) { endEmoji = '👍'; endTitle = 'Fena değil'; }
-  else if (score < 400) { endEmoji = '🔥'; endTitle = 'İyi iş!'; }
+  if (pctScore < 30) { endEmoji = '😅'; endTitle = 'Enflasyon yendi seni'; }
+  else if (pctScore < 60) { endEmoji = '👍'; endTitle = 'Fena değil'; }
+  else if (pctScore < 80) { endEmoji = '🔥'; endTitle = 'İyi iş!'; }
   document.getElementById('end-emoji').textContent = endEmoji;
   document.getElementById('end-title').textContent = endTitle;
 }
