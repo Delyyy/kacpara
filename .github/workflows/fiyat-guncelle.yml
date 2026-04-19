@@ -22,9 +22,11 @@ jobs:
 
       - run: python doviz.py
 
+      - run: python market.py
+
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add otomatik_fiyatlar.json
+          git add otomatik_fiyatlar.json otomatik_market.json
           git diff --staged --quiet || git commit -m "Fiyatlar guncellendi"
           git push
