@@ -1,0 +1,272 @@
+{
+  "guncelleme": "2026-04-19 17:50",
+  "kaynak": "marketfiyati.org.tr (A101, BIM, Migros, Carrefour, SOK, TK)",
+  "not": "Her urunun fiyati: o urunu satan marketlerin medyanidir",
+  "toplam_urun": 33,
+  "urunler": [
+    {
+      "emoji": "🍅",
+      "isim": "1 kg domates",
+      "bilgi": "Taze",
+      "fiyat": 119.0,
+      "kac_market": 1,
+      "api_baslik": "Domates 1 Kg"
+    },
+    {
+      "emoji": "🥒",
+      "isim": "1 kg salatalık",
+      "bilgi": "Taze",
+      "fiyat": 48.4,
+      "kac_market": 4,
+      "api_baslik": "Salatalık 1 Kg"
+    },
+    {
+      "emoji": "🍆",
+      "isim": "1 kg patlıcan",
+      "bilgi": "Taze",
+      "fiyat": 24.9,
+      "kac_market": 1,
+      "api_baslik": "Tagem Topak Patlıcan 1 Kg"
+    },
+    {
+      "emoji": "🌶️",
+      "isim": "1 kg sivri biber",
+      "bilgi": "Taze",
+      "fiyat": 169.93,
+      "kac_market": 2,
+      "api_baslik": "Sivri Biber 1 Kg"
+    },
+    {
+      "emoji": "🍌",
+      "isim": "1 kg muz",
+      "bilgi": "Taze",
+      "fiyat": 84.9,
+      "kac_market": 3,
+      "api_baslik": "Yerli Muz 1 Kg"
+    },
+    {
+      "emoji": "🍎",
+      "isim": "1 kg elma",
+      "bilgi": "Taze",
+      "fiyat": 49.0,
+      "kac_market": 1,
+      "api_baslik": "Ekonomik Elma 1 Kg"
+    },
+    {
+      "emoji": "🍋",
+      "isim": "1 kg limon",
+      "bilgi": "Taze",
+      "fiyat": 84.0,
+      "kac_market": 1,
+      "api_baslik": "Limon 1 Kg"
+    },
+    {
+      "emoji": "🧅",
+      "isim": "1 kg soğan",
+      "bilgi": "Taze",
+      "fiyat": 9.82,
+      "kac_market": 2,
+      "api_baslik": "Soğan 1 Kg"
+    },
+    {
+      "emoji": "🍉",
+      "isim": "1 kg karpuz",
+      "bilgi": "Taze",
+      "fiyat": 49.0,
+      "kac_market": 1,
+      "api_baslik": "Karpuz Kg"
+    },
+    {
+      "emoji": "🍚",
+      "isim": "Baldo pirinç 1 kg",
+      "bilgi": "Market",
+      "fiyat": 73.5,
+      "kac_market": 1,
+      "api_baslik": "Ovadan Baldo Pirinç 1 Kg"
+    },
+    {
+      "emoji": "🌾",
+      "isim": "Un 1 kg",
+      "bilgi": "Market",
+      "fiyat": 29.9,
+      "kac_market": 1,
+      "api_baslik": "Carrefour Buğday Unu 1 Kg"
+    },
+    {
+      "emoji": "🌾",
+      "isim": "Bulgur 1 kg",
+      "bilgi": "Market",
+      "fiyat": 27.0,
+      "kac_market": 1,
+      "api_baslik": "Saban Pilavlık Bulgur 1 Kg"
+    },
+    {
+      "emoji": "🍬",
+      "isim": "Toz şeker 1 kg",
+      "bilgi": "Market",
+      "fiyat": 46.5,
+      "kac_market": 1,
+      "api_baslik": "Carrefour Toz Şeker 1 Kg"
+    },
+    {
+      "emoji": "🫒",
+      "isim": "Zeytinyağı 1 L",
+      "bilgi": "Sızma",
+      "fiyat": 249.0,
+      "kac_market": 1,
+      "api_baslik": "Orkide Sızma Zeytinyağı 1 Lt"
+    },
+    {
+      "emoji": "🍝",
+      "isim": "Barilla makarna 500 gr",
+      "bilgi": "Market",
+      "fiyat": 45.73,
+      "kac_market": 2,
+      "api_baslik": "Barilla Spagetti Makarna 500 Gr"
+    },
+    {
+      "emoji": "🥛",
+      "isim": "Pınar süt 1 L",
+      "bilgi": "Tam yağlı",
+      "fiyat": 39.5,
+      "kac_market": 1,
+      "api_baslik": "Pınar %0,5 Yağlı Süt 1 Lt"
+    },
+    {
+      "emoji": "🥛",
+      "isim": "SEK süt 1 L",
+      "bilgi": "Tam yağlı",
+      "fiyat": 49.5,
+      "kac_market": 1,
+      "api_baslik": "Sek %1.5 Yağlı Süt 1 Lt"
+    },
+    {
+      "emoji": "🥚",
+      "isim": "30'lu yumurta",
+      "bilgi": "Market",
+      "fiyat": 99.0,
+      "kac_market": 1,
+      "api_baslik": "Kumartaşlı Medium Boy Yumurta 30 Adet"
+    },
+    {
+      "emoji": "🧀",
+      "isim": "Beyaz peynir 400 gr",
+      "bilgi": "Market",
+      "fiyat": 109.5,
+      "kac_market": 1,
+      "api_baslik": "Kaanlar Tam Yağlı Beyaz Peynir 400 Gr"
+    },
+    {
+      "emoji": "🧀",
+      "isim": "Kaşar peyniri 500 gr",
+      "bilgi": "Market",
+      "fiyat": 210.0,
+      "kac_market": 1,
+      "api_baslik": "Tarabya Kaşar Peyniri 500 Gr"
+    },
+    {
+      "emoji": "🧈",
+      "isim": "Tereyağı 250 gr",
+      "bilgi": "Market",
+      "fiyat": 44.9,
+      "kac_market": 1,
+      "api_baslik": "Sana Tereyağ Lezzeti 250 Gr"
+    },
+    {
+      "emoji": "🥣",
+      "isim": "Yoğurt 1 kg",
+      "bilgi": "Market",
+      "fiyat": 74.9,
+      "kac_market": 1,
+      "api_baslik": "Tarım Kredi Tava Yoğurt 1 Kg"
+    },
+    {
+      "emoji": "🥤",
+      "isim": "Ayran 1 L",
+      "bilgi": "Market",
+      "fiyat": 39.5,
+      "kac_market": 1,
+      "api_baslik": "Torku Ayran 1 Lt"
+    },
+    {
+      "emoji": "🥤",
+      "isim": "Coca-Cola 1 L",
+      "bilgi": "PET şişe",
+      "fiyat": 54.0,
+      "kac_market": 1,
+      "api_baslik": "Coca-Cola 1 Lt"
+    },
+    {
+      "emoji": "⚡",
+      "isim": "Red Bull 250 ml",
+      "bilgi": "Market",
+      "fiyat": 52.5,
+      "kac_market": 2,
+      "api_baslik": "Red Bull Şekersiz Enerji İçeceği 250 Ml"
+    },
+    {
+      "emoji": "🫖",
+      "isim": "Çaykur Rize çay 1 kg",
+      "bilgi": "Market",
+      "fiyat": 299.0,
+      "kac_market": 3,
+      "api_baslik": "Çaykur Rize Turist Çay 1 Kg"
+    },
+    {
+      "emoji": "☕",
+      "isim": "Nescafe Gold 100 gr",
+      "bilgi": "Market",
+      "fiyat": 284.7,
+      "kac_market": 4,
+      "api_baslik": "Nescafé Gold Eko Paket 100 Gr"
+    },
+    {
+      "emoji": "🍫",
+      "isim": "Milka çikolata 100 gr",
+      "bilgi": "Market",
+      "fiyat": 39.0,
+      "kac_market": 1,
+      "api_baslik": "Milka Çikolata Çeşitleri 100 Gr"
+    },
+    {
+      "emoji": "🍪",
+      "isim": "Eti Cin bisküvi",
+      "bilgi": "Market",
+      "fiyat": 49.5,
+      "kac_market": 1,
+      "api_baslik": "Eti Cin Portakal Jöleli Bisküvi 200 Gr"
+    },
+    {
+      "emoji": "🍗",
+      "isim": "Tavuk göğsü (1 adet)",
+      "bilgi": "Fileto · market",
+      "fiyat": 64.5,
+      "kac_market": 1,
+      "api_baslik": "Tavuk Göğsü 1 Adet"
+    },
+    {
+      "emoji": "🧺",
+      "isim": "Ariel toz deterjan",
+      "bilgi": "Market",
+      "fiyat": 158.0,
+      "kac_market": 1,
+      "api_baslik": "Ariel Toz Deterjan 1.5 Kg"
+    },
+    {
+      "emoji": "🧼",
+      "isim": "Fairy bulaşık tableti",
+      "bilgi": "Market",
+      "fiyat": 182.48,
+      "kac_market": 1,
+      "api_baslik": "Fairy Platinum Plus Limon Kokulu Tablet 22 Adet"
+    },
+    {
+      "emoji": "🧴",
+      "isim": "Elidor şampuan 400 ml",
+      "bilgi": "Market",
+      "fiyat": 144.0,
+      "kac_market": 2,
+      "api_baslik": "Elidor Şampuan Çeşitleri 400 Ml"
+    }
+  ]
+}
