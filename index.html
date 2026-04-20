@@ -247,7 +247,42 @@
   .detay-fiyat { color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; font-family: 'Space Grotesk', sans-serif; }
   .detay-note { font-size: 11px; color: var(--ink-mute); text-align: center; margin-top: 10px; font-style: italic; }
 
-  /* ------------ İstatistik kartı ------------ */
+  /* ------------ Sonuç kartı içindeki kompakt ürün satırı ------------ */
+  .mini-product {
+    display: flex; align-items: center; gap: 12px;
+    padding-bottom: 16px; margin-bottom: 16px;
+    border-bottom: 1px solid var(--card-border);
+  }
+  .mini-img {
+    width: 52px; height: 52px; object-fit: contain;
+    border-radius: 12px; background: #f8fafc; padding: 4px;
+    flex-shrink: 0;
+  }
+  .mini-emoji { font-size: 40px; line-height: 1; flex-shrink: 0; width: 52px; text-align: center; }
+  .mini-text { flex: 1; min-width: 0; text-align: left; }
+  .mini-name {
+    font-size: 15px; font-weight: 700; color: var(--ink);
+    letter-spacing: -0.2px; line-height: 1.3;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .mini-info { font-size: 12px; color: var(--ink-soft); margin-top: 2px; font-weight: 500; }
+
+  /* Kompakt istatistik satırı (result-card içinde) */
+  .mini-stats {
+    display: flex; justify-content: space-around; gap: 10px;
+    padding: 10px 0; margin-top: 6px;
+    border-top: 1px solid var(--card-border);
+    font-size: 12px;
+  }
+  .mini-stat { display: flex; gap: 6px; align-items: baseline; }
+  .mini-stat-label { color: var(--ink-soft); font-weight: 500; text-transform: uppercase; letter-spacing: 0.3px; font-size: 10px; }
+  .mini-stat-value {
+    color: var(--ink); font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif; font-size: 14px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ------------ (Eski) İstatistik kartı — artık kullanılmıyor ama CSS kalsın ------------ */
   .stats-card {
     background: var(--card); border-radius: var(--radius); padding: 20px 16px;
     margin-bottom: 16px; box-shadow: var(--shadow);
@@ -343,7 +378,7 @@
       <span class="score-pill">★ <b id="score">0</b></span>
     </div>
 
-    <div class="card">
+    <div class="card" id="product-card">
       <img id="product-img" class="product-img" alt="" style="display:none;">
       <div class="emoji" id="emoji" style="display:none;">🍅</div>
       <div class="name" id="name">Yükleniyor</div>
@@ -362,6 +397,14 @@
 
     <div id="result-view" style="display:none;">
       <div class="result-card">
+        <div class="mini-product">
+          <img id="r-mini-img" class="mini-img" alt="" style="display:none;">
+          <div class="mini-emoji" id="r-mini-emoji" style="display:none;">🍅</div>
+          <div class="mini-text">
+            <div class="mini-name" id="r-mini-name">—</div>
+            <div class="mini-info" id="r-mini-info"></div>
+          </div>
+        </div>
         <div class="result-head">
           <div class="result-badge" id="r-badge">✓</div>
           <div class="result-title" id="r-title">Harika!</div>
@@ -380,25 +423,14 @@
           <div class="diff-label">Fark</div>
           <div class="diff-value" id="r-diff">%0</div>
         </div>
+        <div class="mini-stats">
+          <div class="mini-stat"><span class="mini-stat-label">Round</span> <span class="mini-stat-value" id="s-round">1</span></div>
+          <div class="mini-stat"><span class="mini-stat-label">Ortalama</span> <span class="mini-stat-value" id="s-avg">%0</span></div>
+        </div>
         <div class="detay" id="r-detay" style="display:none;">
           <div class="detay-title">Market Fiyatları</div>
           <div class="detay-grid" id="r-detay-grid"></div>
           <div class="detay-note" id="r-detay-note"></div>
-        </div>
-      </div>
-      <div class="stats-card">
-        <div class="stats-title">Oyun İstatistikleri</div>
-        <div class="stats-grid">
-          <div class="stat-item">
-            <div class="stat-icon icon-round">📊</div>
-            <div class="stat-label">Oynanan Round</div>
-            <div class="stat-value" id="s-round">1</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-icon icon-avg">🎯</div>
-            <div class="stat-label">Ortalama Yakınlık</div>
-            <div class="stat-value" id="s-avg">%0</div>
-          </div>
         </div>
       </div>
       <button class="btn-primary" id="next-btn">Devam</button>
@@ -654,6 +686,7 @@ function loadQuestion() {
   input.value = '';
   input.disabled = false;
   document.getElementById('submit-btn').disabled = true;
+  document.getElementById('product-card').style.display = 'block';
   document.getElementById('guess-view').style.display = 'block';
   document.getElementById('result-view').style.display = 'none';
   setTimeout(() => input.focus(), 50);
@@ -718,9 +751,33 @@ function submitGuess() {
   document.getElementById('s-round').textContent = current + 1;
   const avg = percentages.reduce((a,b) => a+b, 0) / percentages.length;
   document.getElementById('s-avg').textContent = `%${avg.toFixed(1)}`;
+  // Mini ürün bilgisini doldur (result-card içinde, büyük kartın yerine)
+  const miniImg   = document.getElementById('r-mini-img');
+  const miniEmoji = document.getElementById('r-mini-emoji');
+  if (q.img) {
+    miniImg.src = q.img;
+    miniImg.alt = q.name;
+    miniImg.style.display = 'block';
+    miniEmoji.style.display = 'none';
+    miniImg.onerror = () => {
+      miniImg.style.display = 'none';
+      miniEmoji.textContent = q.emoji;
+      miniEmoji.style.display = 'block';
+    };
+  } else {
+    miniImg.style.display = 'none';
+    miniEmoji.textContent = q.emoji;
+    miniEmoji.style.display = 'block';
+  }
+  document.getElementById('r-mini-name').textContent = q.name;
+  document.getElementById('r-mini-info').textContent = q.info;
+
+  // Büyük ürün kartını gizle ki "Devam" butonu üstte kalsın
+  document.getElementById('product-card').style.display = 'none';
   document.getElementById('guess-view').style.display = 'none';
   document.getElementById('result-view').style.display = 'block';
   document.getElementById('next-btn').textContent = (current === questions.length - 1) ? 'Sonucu gör' : 'Devam';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 document.getElementById('submit-btn').addEventListener('click', submitGuess);
