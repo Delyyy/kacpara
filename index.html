@@ -200,6 +200,7 @@ const DOVIZ_URL      = "otomatik_fiyatlar.json";
 const MARKET_URL     = "otomatik_market.json";
 const ELEKTRONIK_URL = "otomatik_elektronik.json";
 const MOBILYA_URL    = "otomatik_mobilya.json";
+const ARABA_URL      = "otomatik_araba.json";
 const RESIM_URL      = "resimler.json";
 
 let IMG_MAP = {};
@@ -207,11 +208,12 @@ let IMG_MAP = {};
 let ALL_PRODUCTS = [];
 
 async function loadLivePrices() {
-  const [dovizRes, marketRes, elektronikRes, mobilyaRes, resimRes] = await Promise.allSettled([
+  const [dovizRes, marketRes, elektronikRes, mobilyaRes, arabaRes, resimRes] = await Promise.allSettled([
     fetch(DOVIZ_URL      + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
     fetch(MARKET_URL     + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
     fetch(ELEKTRONIK_URL + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
     fetch(MOBILYA_URL    + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
+    fetch(ARABA_URL      + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
     fetch(RESIM_URL      + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
   ]);
 
@@ -280,6 +282,22 @@ async function loadLivePrices() {
         isLive: true,
         img: u.gorsel || null,
         kategori: u.kategori || "Mobilya"
+      });
+    }
+  }
+
+  // Araba (Arabam.com sıfır km)
+  if (arabaRes.status === "fulfilled") {
+    const ad = arabaRes.value;
+    for (const u of ad.urunler) {
+      liveProducts.push({
+        emoji: u.emoji,
+        name: u.isim,
+        info: u.bilgi || "Sıfır km",
+        answer: Math.round(u.fiyat * 100) / 100,
+        isLive: true,
+        img: u.gorsel || null,
+        kategori: u.kategori || "Araba"
       });
     }
   }
