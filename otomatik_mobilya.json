@@ -1,1029 +1,504 @@
 {
-  "guncelleme": "2026-04-20 14:59",
+  "guncelleme": "2026-04-20 19:11",
   "kaynak": "ikea.com.tr",
-  "toplam_urun": 146,
+  "toplam_urun": 71,
   "urunler": [
     {
       "emoji": "🪑",
-      "isim": "UNDVIKA köşe koruyucu, beyaz",
+      "isim": "Köşe koruyucu",
       "bilgi": "IKEA · Sehpa",
       "fiyat": 149.0,
       "kategori": "Sehpa"
     },
     {
-      "emoji": "🪟",
-      "isim": "SCHOTTIS",
-      "bilgi": "IKEA · Perde",
-      "fiyat": 169.0,
-      "kategori": "Perde"
+      "emoji": "🪞",
+      "isim": "Duvar aynası",
+      "bilgi": "IKEA · Ayna",
+      "fiyat": 199.0,
+      "kategori": "Ayna"
     },
     {
       "emoji": "💡",
-      "isim": "BARLAST abajur, siyah-beyaz",
+      "isim": "Abajur",
       "bilgi": "IKEA · Masa Lambası",
       "fiyat": 229.0,
       "kategori": "Masa Lambası"
     },
     {
       "emoji": "🧸",
-      "isim": "TROFAST saklama kutusu, lila",
+      "isim": "Saklama kutusu",
       "bilgi": "IKEA · Çocuk Mobilyası",
       "fiyat": 240.0,
       "kategori": "Çocuk Mobilyası"
     },
     {
       "emoji": "🪟",
-      "isim": "LILL",
+      "isim": "Perde",
       "bilgi": "IKEA · Perde",
       "fiyat": 249.0,
       "kategori": "Perde"
     },
     {
       "emoji": "💡",
-      "isim": "KORNSNÖ çocuk masa lambası, beyaz",
+      "isim": "Çocuk masa lambası",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 279.0,
       "kategori": "Aydınlatma"
     },
     {
-      "emoji": "🛏️",
-      "isim": "SVAMPFLY",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 299.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "🟨",
-      "isim": "SORTSÖ",
-      "bilgi": "IKEA · Kilim",
-      "fiyat": 299.0,
-      "kategori": "Kilim"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "LACK yan sehpa, beyaz",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 379.0,
-      "kategori": "Sehpa"
-    },
-    {
       "emoji": "💡",
-      "isim": "LAMPAN abajur, beyaz",
-      "bilgi": "IKEA · Masa Lambası",
-      "fiyat": 379.0,
-      "kategori": "Masa Lambası"
-    },
-    {
-      "emoji": "📦",
-      "isim": "STUK",
-      "bilgi": "IKEA · Hurç",
-      "fiyat": 399.0,
-      "kategori": "Hurç"
-    },
-    {
-      "emoji": "📦",
-      "isim": "SKUBB hurç, beyaz",
-      "bilgi": "IKEA · Hurç",
-      "fiyat": 479.0,
-      "kategori": "Hurç"
+      "isim": "Sarkıt lamba",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 299.0,
+      "kategori": "Aydınlatma"
     },
     {
       "emoji": "🟨",
-      "isim": "TIPHEDE",
+      "isim": "Kilim",
       "bilgi": "IKEA · Kilim",
       "fiyat": 479.0,
       "kategori": "Kilim"
     },
     {
       "emoji": "🟦",
-      "isim": "TIPHEDE büyük halı, natürel-kırık beyaz",
+      "isim": "Büyük halı",
       "bilgi": "IKEA · Halı",
       "fiyat": 549.0,
       "kategori": "Halı"
     },
     {
-      "emoji": "🪑",
-      "isim": "GUNDE",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 629.0,
-      "kategori": "Sandalye"
-    },
-    {
-      "emoji": "📦",
-      "isim": "SKUBB",
-      "bilgi": "IKEA · Hurç",
-      "fiyat": 749.0,
-      "kategori": "Hurç"
-    },
-    {
-      "emoji": "📺",
-      "isim": "LACK tv sehpası, beyaz",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 799.0,
-      "kategori": "TV Ünitesi"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "SANDSBERG",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 799.0,
-      "kategori": "Sandalye"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "GRÖNAMARANT",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 899.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "🟦",
-      "isim": "SVINDINGE",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 899.0,
-      "kategori": "Halı"
+      "emoji": "🛋️",
+      "isim": "Saklama gözlü puf",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 579.0,
+      "kategori": "Oturma Odası"
     },
     {
       "emoji": "🧸",
-      "isim": "MAMMUT çocuk sandalyesi, açık mavi",
+      "isim": "Çocuk sandalyesi",
       "bilgi": "IKEA · Çocuk Mobilyası",
       "fiyat": 949.0,
       "kategori": "Çocuk Mobilyası"
     },
     {
       "emoji": "🪟",
-      "isim": "BENGTA karartma perde, bej",
+      "isim": "Karartma perde",
       "bilgi": "IKEA · Perde",
       "fiyat": 999.0,
       "kategori": "Perde"
     },
     {
       "emoji": "🪟",
-      "isim": "BENGTA",
-      "bilgi": "IKEA · Perde",
-      "fiyat": 999.0,
-      "kategori": "Perde"
-    },
-    {
-      "emoji": "🪟",
-      "isim": "LEN bebek perdesi, beyaz",
+      "isim": "Bebek perdesi",
       "bilgi": "IKEA · Perde",
       "fiyat": 999.0,
       "kategori": "Perde"
     },
     {
       "emoji": "🧸",
-      "isim": "LEN",
+      "isim": "Çocuk Mobilyası",
       "bilgi": "IKEA · Çocuk Mobilyası",
       "fiyat": 999.0,
       "kategori": "Çocuk Mobilyası"
     },
     {
       "emoji": "🌳",
-      "isim": "HYLLIS dış mekan raf ünitesi, galvanizli",
+      "isim": "Dış mekan raf ünitesi",
       "bilgi": "IKEA · Dış Mekan",
       "fiyat": 999.0,
       "kategori": "Dış Mekan"
     },
     {
-      "emoji": "🗄️",
-      "isim": "KNARREVIK komodin, siyah",
-      "bilgi": "IKEA · Komodin",
-      "fiyat": 1099.0,
-      "kategori": "Komodin"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "VILDGÅS",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 1099.0,
-      "kategori": "Sandalye"
-    },
-    {
       "emoji": "💡",
-      "isim": "SKURUP çalışma lambası, siyah",
+      "isim": "Çalışma lambası",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 1099.0,
       "kategori": "Aydınlatma"
     },
     {
-      "emoji": "📦",
-      "isim": "PURRPINGLA",
-      "bilgi": "IKEA · Hurç",
-      "fiyat": 1199.0,
-      "kategori": "Hurç"
-    },
-    {
-      "emoji": "📺",
-      "isim": "BAGGEBO",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 1199.0,
-      "kategori": "TV Ünitesi"
-    },
-    {
       "emoji": "💺",
-      "isim": "LOBERGET/SIBBEN çocuk çalışma sandalyesi, beyaz",
+      "isim": "Çocuk çalışma sandalyesi",
       "bilgi": "IKEA · Çalışma Sandalyesi",
       "fiyat": 1199.0,
       "kategori": "Çalışma Sandalyesi"
     },
     {
-      "emoji": "🪑",
-      "isim": "LOBERGET/SIBBEN",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 1199.0,
-      "kategori": "Sandalye"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "STIG",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 1199.0,
-      "kategori": "Sandalye"
-    },
-    {
       "emoji": "💄",
-      "isim": "KARMSUND masa aynası, siyah",
+      "isim": "Masa aynası",
       "bilgi": "IKEA · Makyaj Masası",
       "fiyat": 1299.0,
       "kategori": "Makyaj Masası"
     },
     {
       "emoji": "💡",
-      "isim": "TVÅMASTAD LED'li masa lambası, opal beyaz cam-pirinç",
+      "isim": "LED'li masa lambası",
       "bilgi": "IKEA · Masa Lambası",
       "fiyat": 1299.0,
       "kategori": "Masa Lambası"
     },
     {
-      "emoji": "📚",
-      "isim": "BAGGEBO kitaplık, beyaz",
-      "bilgi": "IKEA · Kitaplık",
-      "fiyat": 1399.0,
-      "kategori": "Kitaplık"
-    },
-    {
       "emoji": "💡",
-      "isim": "SOLVINDEN LED'li dekoratif aydınlatma, pembe",
+      "isim": "LED'li dekoratif aydınlatma",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 1399.0,
       "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "💡",
-      "isim": "AFTONSPARV çocuk masa lambası, çok renkli",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 1499.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "🧸",
-      "isim": "BARNDRÖM",
-      "bilgi": "IKEA · Çocuk Mobilyası",
-      "fiyat": 1499.0,
-      "kategori": "Çocuk Mobilyası"
     },
     {
       "emoji": "🛋️",
-      "isim": "GÄVLE tekli koltuk, diseröd kırmızı",
+      "isim": "Tekli koltuk",
       "bilgi": "IKEA · Koltuk",
       "fiyat": 1599.0,
       "kategori": "Koltuk"
     },
     {
       "emoji": "💡",
-      "isim": "TÄRNABY abajur, bej",
+      "isim": "Abajur",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 1599.0,
       "kategori": "Aydınlatma"
     },
     {
-      "emoji": "🛏️",
-      "isim": "EKTANDVINGE",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 1999.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "🟦",
-      "isim": "LOHALS",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 1999.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "🟨",
-      "isim": "LOHALS",
-      "bilgi": "IKEA · Kilim",
-      "fiyat": 1999.0,
-      "kategori": "Kilim"
-    },
-    {
-      "emoji": "🧸",
-      "isim": "MAMMUT",
-      "bilgi": "IKEA · Çocuk Mobilyası",
-      "fiyat": 2099.0,
-      "kategori": "Çocuk Mobilyası"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "GURSKEN",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 2199.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "GURSKEN 3 çekmeceli şifonyer, açık bej",
-      "bilgi": "IKEA · Şifonyer",
-      "fiyat": 2199.0,
-      "kategori": "Şifonyer"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "OLSERÖD yan sehpa, siyah-huş",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 2499.0,
-      "kategori": "Sehpa"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "OLSERÖD yan sehpa, siyah-koyu gri",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 2499.0,
-      "kategori": "Sehpa"
-    },
-    {
       "emoji": "💡",
-      "isim": "SANDKORN sarkıt lamba abajur başlığı, rattan",
+      "isim": "Sarkıt lamba abajur başlığı",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 2499.0,
       "kategori": "Aydınlatma"
     },
     {
       "emoji": "🟦",
-      "isim": "JÄRNVÄG eskitme halı, bej-koyu bej",
+      "isim": "Eskitme halı",
       "bilgi": "IKEA · Halı",
       "fiyat": 2499.0,
       "kategori": "Halı"
     },
     {
       "emoji": "🪑",
-      "isim": "AMMARYD orta sehpa, beyaz",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 2699.0,
-      "kategori": "Sehpa"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "FEJAN",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 2797.0,
-      "kategori": "Dış Mekan"
+      "isim": "Döşemeli sandalye",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 2799.0,
+      "kategori": "Sandalye"
     },
     {
       "emoji": "🛏️",
-      "isim": "GURSKEN gardırop, açık bej",
+      "isim": "Gardırop",
       "bilgi": "IKEA · Yatak Odası",
       "fiyat": 2999.0,
       "kategori": "Yatak Odası"
     },
     {
       "emoji": "🚪",
-      "isim": "GURSKEN gardırop, açık bej",
+      "isim": "Gardırop",
       "bilgi": "IKEA · Gardırop",
       "fiyat": 2999.0,
       "kategori": "Gardırop"
     },
     {
-      "emoji": "📚",
-      "isim": "BILLY kitaplık, mavi",
-      "bilgi": "IKEA · Kitaplık",
+      "emoji": "💡",
+      "isim": "Aydınlatma",
+      "bilgi": "IKEA · Aydınlatma",
       "fiyat": 2999.0,
-      "kategori": "Kitaplık"
+      "kategori": "Aydınlatma"
     },
     {
       "emoji": "🟦",
-      "isim": "LÄTTBETONG",
+      "isim": "Halı",
       "bilgi": "IKEA · Halı",
       "fiyat": 2999.0,
       "kategori": "Halı"
     },
     {
       "emoji": "🌳",
-      "isim": "NÄMMARÖ",
+      "isim": "Dış Mekan",
       "bilgi": "IKEA · Dış Mekan",
       "fiyat": 2999.0,
       "kategori": "Dış Mekan"
     },
     {
       "emoji": "🛋️",
-      "isim": "STRANDMON tekli koltuk kılıfı, ribersborg koyu gri-bej",
+      "isim": "Tekli koltuk kılıfı",
       "bilgi": "IKEA · Koltuk",
       "fiyat": 3000.0,
       "kategori": "Koltuk"
     },
     {
-      "emoji": "📺",
-      "isim": "LACK",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 3199.0,
-      "kategori": "TV Ünitesi"
-    },
-    {
-      "emoji": "💻",
-      "isim": "KALLAX",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 3199.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "JÄRRESTAD",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 3299.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "EKENABBEN",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 3299.0,
-      "kategori": "Oturma Odası"
-    },
-    {
       "emoji": "💺",
-      "isim": "LOBERGET/MALSKÄR çalışma sandalyesi, beyaz",
+      "isim": "Çalışma sandalyesi",
       "bilgi": "IKEA · Çalışma Sandalyesi",
       "fiyat": 3299.0,
       "kategori": "Çalışma Sandalyesi"
     },
     {
-      "emoji": "🟦",
-      "isim": "MORUM",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 3299.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "🪞",
-      "isim": "SVANSELE",
-      "bilgi": "IKEA · Ayna",
-      "fiyat": 3299.0,
-      "kategori": "Ayna"
-    },
-    {
       "emoji": "🛏️",
-      "isim": "BLASTASEN komodin, beyaz",
+      "isim": "Komodin",
       "bilgi": "IKEA · Yatak Odası",
       "fiyat": 3499.0,
       "kategori": "Yatak Odası"
     },
     {
       "emoji": "🗄️",
-      "isim": "HEMNES komodin, gri-yeşil-açık kahverengi boyalı",
-      "bilgi": "IKEA · Komodin",
-      "fiyat": 3499.0,
-      "kategori": "Komodin"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "BLASTASEN komodin, beyaz",
+      "isim": "Komodin",
       "bilgi": "IKEA · Komodin",
       "fiyat": 3499.0,
       "kategori": "Komodin"
     },
     {
       "emoji": "🪞",
-      "isim": "LINDBYN yuvarlak ayna, siyah",
+      "isim": "Yuvarlak ayna",
       "bilgi": "IKEA · Ayna",
       "fiyat": 3499.0,
       "kategori": "Ayna"
     },
     {
-      "emoji": "💄",
-      "isim": "BRIMNES",
-      "bilgi": "IKEA · Makyaj Masası",
-      "fiyat": 3799.0,
-      "kategori": "Makyaj Masası"
-    },
-    {
       "emoji": "🪑",
-      "isim": "BORGEBY yan sehpa, huş kaplama",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 3799.0,
-      "kategori": "Sehpa"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "HUVUDSPELARE",
+      "isim": "Sandalye",
       "bilgi": "IKEA · Sandalye",
       "fiyat": 3799.0,
       "kategori": "Sandalye"
     },
     {
       "emoji": "🪞",
-      "isim": "STOCKHOLM",
+      "isim": "Ayna",
       "bilgi": "IKEA · Ayna",
       "fiyat": 3799.0,
       "kategori": "Ayna"
     },
     {
-      "emoji": "🗄️",
-      "isim": "GULLABERG",
-      "bilgi": "IKEA · Komodin",
-      "fiyat": 3999.0,
-      "kategori": "Komodin"
-    },
-    {
       "emoji": "💄",
-      "isim": "ODGER",
+      "isim": "Makyaj Masası",
       "bilgi": "IKEA · Makyaj Masası",
       "fiyat": 3999.0,
       "kategori": "Makyaj Masası"
     },
     {
       "emoji": "📚",
-      "isim": "BILLY kitaplık, beyaz",
+      "isim": "Kitaplık",
       "bilgi": "IKEA · Kitaplık",
       "fiyat": 3999.0,
       "kategori": "Kitaplık"
     },
     {
-      "emoji": "💻",
-      "isim": "LAGKAPTEN/SPAND",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 4299.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "💺",
-      "isim": "FLINTAN",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 4499.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
-      "emoji": "🪞",
-      "isim": "LINDBYN",
-      "bilgi": "IKEA · Ayna",
-      "fiyat": 4499.0,
-      "kategori": "Ayna"
-    },
-    {
       "emoji": "🛏️",
-      "isim": "RÅDMANSÖ",
+      "isim": "Yatak Odası",
       "bilgi": "IKEA · Yatak Odası",
       "fiyat": 4799.0,
       "kategori": "Yatak Odası"
     },
     {
-      "emoji": "🗄️",
-      "isim": "RÅDMANSÖ komodin, kahverengi ceviz görünüm",
-      "bilgi": "IKEA · Komodin",
-      "fiyat": 4799.0,
-      "kategori": "Komodin"
-    },
-    {
       "emoji": "🪑",
-      "isim": "STOCKHOLM 2025 yan sehpa, meşe kaplama-koyu kahve",
+      "isim": "Yan sehpa",
       "bilgi": "IKEA · Sehpa",
       "fiyat": 4999.0,
       "kategori": "Sehpa"
     },
     {
       "emoji": "🪟",
-      "isim": "VECKLARFLY jaluzi, bambu",
+      "isim": "Jaluzi",
       "bilgi": "IKEA · Perde",
       "fiyat": 4999.0,
       "kategori": "Perde"
     },
     {
       "emoji": "🚪",
-      "isim": "FYRUDDEN gardırop kapağı, mavi",
+      "isim": "Gardırop kapağı",
       "bilgi": "IKEA · PAX Gardırop",
       "fiyat": 5200.0,
       "kategori": "PAX Gardırop"
     },
     {
-      "emoji": "🧸",
-      "isim": "TROFAST",
-      "bilgi": "IKEA · Çocuk Mobilyası",
-      "fiyat": 5299.0,
-      "kategori": "Çocuk Mobilyası"
-    },
-    {
-      "emoji": "📺",
-      "isim": "SKRUVBY",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 5499.0,
-      "kategori": "TV Ünitesi"
-    },
-    {
       "emoji": "💻",
-      "isim": "BOLLPOJKE çalışma masası, çam-beyaz",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 5499.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "💻",
-      "isim": "MICKE",
+      "isim": "Çalışma Masası",
       "bilgi": "IKEA · Çalışma Masası",
       "fiyat": 5999.0,
       "kategori": "Çalışma Masası"
     },
     {
-      "emoji": "💡",
-      "isim": "LAUTERS yer lambası, dişbudak-beyaz",
-      "bilgi": "IKEA · Aydınlatma",
+      "emoji": "🌳",
+      "isim": "Kapaklı dolap",
+      "bilgi": "IKEA · Dış Mekan",
       "fiyat": 5999.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "🟦",
-      "isim": "GREJSIMOJS",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 5999.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "💄",
-      "isim": "MALM",
-      "bilgi": "IKEA · Makyaj Masası",
-      "fiyat": 6499.0,
-      "kategori": "Makyaj Masası"
+      "kategori": "Dış Mekan"
     },
     {
       "emoji": "🪑",
-      "isim": "TORSJÖ orta sehpa, altın rengi-cam",
+      "isim": "Orta sehpa",
       "bilgi": "IKEA · Sehpa",
       "fiyat": 6499.0,
       "kategori": "Sehpa"
     },
     {
-      "emoji": "🗄️",
-      "isim": "MALM",
-      "bilgi": "IKEA · Şifonyer",
-      "fiyat": 6799.0,
-      "kategori": "Şifonyer"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "MALM",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 6999.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🍼",
-      "isim": "VITBJÖRN",
-      "bilgi": "IKEA · Bebek Mobilyası",
-      "fiyat": 6999.0,
-      "kategori": "Bebek Mobilyası"
-    },
-    {
       "emoji": "💻",
-      "isim": "ANFALLARE/KRILLE",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 7299.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "💻",
-      "isim": "PIPLÄRKA çocuk çalışma masası, mavi-beyaz",
+      "isim": "Çocuk çalışma masası",
       "bilgi": "IKEA · Çalışma Masası",
       "fiyat": 7499.0,
       "kategori": "Çalışma Masası"
     },
     {
-      "emoji": "🟦",
-      "isim": "TIDTABELL büyük halı, gri",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 7499.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "🪞",
-      "isim": "STOCKHOLM 2025",
-      "bilgi": "IKEA · Ayna",
-      "fiyat": 7499.0,
-      "kategori": "Ayna"
-    },
-    {
       "emoji": "🍼",
-      "isim": "GULLIVER",
+      "isim": "Bebek Mobilyası",
       "bilgi": "IKEA · Bebek Mobilyası",
       "fiyat": 7499.0,
       "kategori": "Bebek Mobilyası"
-    },
-    {
-      "emoji": "💄",
-      "isim": "NORDKISA",
-      "bilgi": "IKEA · Makyaj Masası",
-      "fiyat": 7999.0,
-      "kategori": "Makyaj Masası"
     },
     {
       "emoji": "📚",
-      "isim": "BILLY cam kapaklı kitaplık, beyaz",
+      "isim": "Cam kapaklı kitaplık",
       "bilgi": "IKEA · Kitaplık",
       "fiyat": 7999.0,
       "kategori": "Kitaplık"
     },
     {
-      "emoji": "💻",
-      "isim": "MITTPLAN",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 7999.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "💺",
-      "isim": "SMÖRKULL",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 7999.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
-      "emoji": "🍼",
-      "isim": "SUNDVIK",
-      "bilgi": "IKEA · Bebek Mobilyası",
-      "fiyat": 7999.0,
-      "kategori": "Bebek Mobilyası"
+      "emoji": "🌳",
+      "isim": "Katlanabilir masa ve katlanabilir sandalye seti",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 9397.0,
+      "kategori": "Dış Mekan"
     },
     {
       "emoji": "🛋️",
-      "isim": "STRANDMON",
+      "isim": "Açık raf ünitesi",
       "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 8499.0,
+      "fiyat": 9999.0,
       "kategori": "Oturma Odası"
     },
     {
-      "emoji": "🌳",
-      "isim": "SUNDSÖ katlanabilir masa ve katlanabilir sandalye seti, parlak sarı",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 9397.0,
-      "kategori": "Dış Mekan"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "SUNDSÖ",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 9397.0,
-      "kategori": "Dış Mekan"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "SLATTUM",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 9499.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "MALM/LURÖY",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 9499.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "💄",
-      "isim": "SYVDE makyaj masası, beyaz",
-      "bilgi": "IKEA · Makyaj Masası",
-      "fiyat": 9499.0,
-      "kategori": "Makyaj Masası"
-    },
-    {
       "emoji": "🗄️",
-      "isim": "TONSTAD",
-      "bilgi": "IKEA · Şifonyer",
-      "fiyat": 10999.0,
-      "kategori": "Şifonyer"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "GULLABERG 3 çekmeceli şifonyer, gri",
+      "isim": "Şifonyer",
       "bilgi": "IKEA · Şifonyer",
       "fiyat": 10999.0,
       "kategori": "Şifonyer"
     },
     {
       "emoji": "🛋️",
-      "isim": "LILLESÄTER",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 10999.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "💺",
-      "isim": "MARKUS",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 10999.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "DYVLINGE döner berjer, kelinge bej",
+      "isim": "Döner berjer",
       "bilgi": "IKEA · Koltuk",
       "fiyat": 11999.0,
       "kategori": "Koltuk"
     },
     {
-      "emoji": "💻",
-      "isim": "BERGLÄRKA çocuk çalışma masası, beyaz",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 11999.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "💺",
-      "isim": "MARKUS çalışma sandalyesi, vissle koyu gri",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 11999.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
       "emoji": "🗄️",
-      "isim": "HEMNES 3 çekmeceli şifonyer, beyaz vernik",
+      "isim": "Çekmeceli şifonyer",
       "bilgi": "IKEA · Şifonyer",
       "fiyat": 13999.0,
       "kategori": "Şifonyer"
     },
     {
-      "emoji": "💄",
-      "isim": "HEMNES",
-      "bilgi": "IKEA · Makyaj Masası",
+      "emoji": "🧸",
+      "isim": "Ters çevrilebilen çocuk karyolası",
+      "bilgi": "IKEA · Çocuk Mobilyası",
       "fiyat": 13999.0,
-      "kategori": "Makyaj Masası"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "STOREMOLLA",
-      "bilgi": "IKEA · Şifonyer",
-      "fiyat": 14999.0,
-      "kategori": "Şifonyer"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "GLAMBERGET",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 15999.0,
-      "kategori": "Karyola"
+      "kategori": "Çocuk Mobilyası"
     },
     {
       "emoji": "📺",
-      "isim": "TONSTAD tv sehpası, meşe kaplama-kahverengi",
+      "isim": "Tv sehpası",
       "bilgi": "IKEA · TV Ünitesi",
       "fiyat": 15999.0,
       "kategori": "TV Ünitesi"
     },
     {
       "emoji": "🍼",
-      "isim": "SUNDVIK çocuk gardırobu, beyaz",
+      "isim": "Çocuk gardırobu",
       "bilgi": "IKEA · Bebek Mobilyası",
       "fiyat": 15999.0,
       "kategori": "Bebek Mobilyası"
     },
     {
       "emoji": "🛏️",
-      "isim": "SLÄKT/LURÖY",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 18379.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "NORDKISA açık gardırop, bambu",
+      "isim": "Açık gardırop",
       "bilgi": "IKEA · Yatak Odası",
       "fiyat": 18999.0,
       "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "💺",
-      "isim": "ALEFJÄLL",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 18999.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "STOCKHOLM 2025",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 19999.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "📺",
-      "isim": "STOCKHOLM 2025",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 19999.0,
-      "kategori": "TV Ünitesi"
     },
     {
       "emoji": "🟨",
-      "isim": "BRÖNDEN el dokuması halı, çok renkli-kırmızı",
+      "isim": "El dokuması halı",
       "bilgi": "IKEA · Kilim",
       "fiyat": 19999.0,
       "kategori": "Kilim"
     },
     {
       "emoji": "🍽️",
-      "isim": "ÅLHULT",
+      "isim": "Yemek Masası",
       "bilgi": "IKEA · Yemek Masası",
       "fiyat": 21495.0,
       "kategori": "Yemek Masası"
     },
     {
       "emoji": "🛏️",
-      "isim": "HEMNES",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 22999.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "HEMNES/LURÖY çift kişilik karyola, beyaz vernik",
+      "isim": "Çift kişilik karyola",
       "bilgi": "IKEA · Karyola",
       "fiyat": 23999.0,
       "kategori": "Karyola"
     },
     {
       "emoji": "🌳",
-      "isim": "NÄMMARÖ 2'li bahçe kanepesi, açık kahverengi",
+      "isim": "2'li bahçe kanepesi",
       "bilgi": "IKEA · Dış Mekan",
       "fiyat": 24190.0,
       "kategori": "Dış Mekan"
     },
     {
       "emoji": "🛋️",
-      "isim": "OSKARSHAMN",
+      "isim": "Oturma Odası",
       "bilgi": "IKEA · Oturma Odası",
       "fiyat": 24998.0,
       "kategori": "Oturma Odası"
     },
     {
       "emoji": "💡",
-      "isim": "EVEDAL yer lambası, gri",
+      "isim": "Yer lambası",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 24999.0,
       "kategori": "Aydınlatma"
     },
     {
       "emoji": "🛋️",
-      "isim": "SALTSJÖBADEN uzanma koltuklu 3'lü kanepe, blekinge beyaz",
+      "isim": "Uzanma koltuklu 3'lü kanepe",
       "bilgi": "IKEA · Oturma Odası",
       "fiyat": 29999.0,
       "kategori": "Oturma Odası"
     },
     {
       "emoji": "🚪",
-      "isim": "PAX/GRIMO PAX gardırop, beyaz-gri-yeşil",
+      "isim": "Gardırop",
       "bilgi": "IKEA · PAX Gardırop",
       "fiyat": 32700.0,
       "kategori": "PAX Gardırop"
     },
     {
       "emoji": "📺",
-      "isim": "HAUGA tv ünitesi, beyaz",
+      "isim": "Tv ünitesi",
       "bilgi": "IKEA · TV Ünitesi",
       "fiyat": 33497.0,
       "kategori": "TV Ünitesi"
     },
     {
       "emoji": "🚪",
-      "isim": "PAX/GRIMO PAX sürgü kapaklı gardırop, beyaz",
+      "isim": "Sürgü kapaklı gardırop",
       "bilgi": "IKEA · PAX Gardırop",
       "fiyat": 35300.0,
       "kategori": "PAX Gardırop"
     },
     {
       "emoji": "🛏️",
-      "isim": "IDANÄS",
+      "isim": "Karyola",
       "bilgi": "IKEA · Karyola",
       "fiyat": 37999.0,
       "kategori": "Karyola"
     },
     {
       "emoji": "🛋️",
-      "isim": "BÅRSLÖV bazalı yataklı köşe kanepe, tibbleby bej-gri",
+      "isim": "Bazalı yataklı köşe kanepe",
       "bilgi": "IKEA · Oturma Odası",
       "fiyat": 39999.0,
       "kategori": "Oturma Odası"
     },
     {
       "emoji": "📦",
-      "isim": "PAX/TONSTAD",
+      "isim": "Hurç",
       "bilgi": "IKEA · Hurç",
       "fiyat": 47720.0,
       "kategori": "Hurç"
-    },
-    {
-      "emoji": "🚪",
-      "isim": "PAX/MERÅKER PAX gardırop, ağartılmış meşe görünümlü-koyu gri",
-      "bilgi": "IKEA · Gardırop",
-      "fiyat": 54200.0,
-      "kategori": "Gardırop"
     }
   ]
 }

@@ -60,6 +60,51 @@ def temizle(s):
     return s.strip()
 
 
+def _is_brand_token(w):
+    """IKEA brand/model/olcu token'i mi?
+    - Slash iceren (HEMNES/LUROY, PAX/MERAKER)
+    - Sadece sayi (2025, model no)
+    - Olcu (120x80, 140x200x30)
+    - 2+ karakter buyuk harf (UNDVIKA, STOCKHOLM)
+    Tek karakter (L, U) korunur: 'L koltuk' gibi ifadeleri bozmayalim.
+    """
+    if '/' in w:
+        return True
+    if w.isdigit():
+        return True
+    if re.fullmatch(r'\d+[xX]\d+(?:[xX]\d+)?', w):
+        return True
+    if len(w) >= 2 and not re.search(r'[a-zçşğüiöı]', w):
+        return True
+    return False
+
+
+def basitlestir_isim(raw_isim, kategori_adi):
+    """IKEA ham isim -> urun tipine odakli temiz isim.
+
+    "UNDVIKA köşe koruyucu, beyaz"                 -> "Köşe koruyucu"
+    "STOCKHOLM 2025 yan sehpa, meşe-koyu kahve"    -> "Yan sehpa"
+    "HEMNES/LURÖY çift kişilik karyola, beyaz"     -> "Çift kişilik karyola"
+    "PAX/MERÅKER PAX gardırop, ağartılmış meşe"    -> "Gardırop"
+    "SCHOTTIS"                                     -> kategori adi
+    """
+    s = raw_isim.strip()
+    # Virgul sonrasini at (renk / malzeme / olcu varyasyon bilgisi)
+    if ',' in s:
+        s = s.split(',', 1)[0].strip()
+    # Bas taraftan brand/model/olcu token'larini sil
+    words = s.split()
+    i = 0
+    while i < len(words) and _is_brand_token(words[i]):
+        i += 1
+    rest = ' '.join(words[i:]).strip()
+    if not rest:
+        # Sadece marka vardi (SCHOTTIS, LILL gibi) -> kategori ismini kullan
+        return kategori_adi
+    # Ilk harfi buyuk yap
+    return rest[0].upper() + rest[1:]
+
+
 def fiyat_parse(s):
     """'23.999' -> 23999.0  |  '4.999,50' -> 4999.50"""
     s = s.strip().replace('&nbsp;', '').replace(' ', '')
@@ -130,8 +175,8 @@ def kategori_urunleri(slug, emoji, kategori_adi, limit):
             # sadece kategori koleksiyon resimleri var. Emoji kullanilacak.
             # (Resimler projenin en sonunda manuel toparlanacak.)
 
-            # Link metni: "HEMNES/LURÖY" veya "HEMNES/LURÖY çift kişilik karyola, beyaz vernik"
-            isim = inner_text[:80]
+            # Marka + model + rengi temizle, sadece urun tipini birak
+            isim = basitlestir_isim(inner_text, kategori_adi)
 
             # Ayni urunun farkli varyantlari cikabiliyor; ayni isim varsa atla
             isim_key = isim.lower()
