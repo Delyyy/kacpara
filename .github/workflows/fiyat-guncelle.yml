@@ -24,9 +24,18 @@ jobs:
 
       - run: python market.py
 
+      - run: python elektronik.py
+
+      - run: python mobilya.py
+
+      # Gorseller simdilik devre disi, en sonda manuel halledilecek
+      # - run: python resimler.py
+      #   env:
+      #     PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add otomatik_fiyatlar.json otomatik_market.json
+          git add otomatik_fiyatlar.json otomatik_market.json otomatik_elektronik.json otomatik_mobilya.json
           git diff --staged --quiet || git commit -m "Fiyatlar guncellendi"
           git push
