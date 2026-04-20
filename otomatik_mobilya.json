@@ -1,504 +1,1199 @@
 {
-  "guncelleme": "2026-04-20 19:11",
+  "guncelleme": "2026-04-20 19:19",
   "kaynak": "ikea.com.tr",
-  "toplam_urun": 71,
+  "toplam_urun": 149,
   "urunler": [
     {
       "emoji": "🪑",
-      "isim": "Köşe koruyucu",
+      "isim": "Beyaz köşe koruyucu",
       "bilgi": "IKEA · Sehpa",
       "fiyat": 149.0,
-      "kategori": "Sehpa"
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE727828.jpg"
     },
     {
-      "emoji": "🪞",
-      "isim": "Duvar aynası",
-      "bilgi": "IKEA · Ayna",
-      "fiyat": 199.0,
-      "kategori": "Ayna"
+      "emoji": "🪟",
+      "isim": "Beyaz 90x190 cm stor perde",
+      "bilgi": "IKEA · Perde",
+      "fiyat": 169.0,
+      "kategori": "Perde",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE680582.jpg"
     },
     {
       "emoji": "💡",
-      "isim": "Abajur",
+      "isim": "Siyah-beyaz 31 cm abajur",
       "bilgi": "IKEA · Masa Lambası",
       "fiyat": 229.0,
-      "kategori": "Masa Lambası"
+      "kategori": "Masa Lambası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE836908.jpg"
     },
     {
       "emoji": "🧸",
-      "isim": "Saklama kutusu",
+      "isim": "Lila 42x30x23 cm saklama kutusu",
       "bilgi": "IKEA · Çocuk Mobilyası",
       "fiyat": 240.0,
-      "kategori": "Çocuk Mobilyası"
+      "kategori": "Çocuk Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE941263.jpg"
     },
     {
       "emoji": "🪟",
-      "isim": "Perde",
+      "isim": "Beyaz 280x300 cm tül perde/2 kanat",
       "bilgi": "IKEA · Perde",
       "fiyat": 249.0,
-      "kategori": "Perde"
+      "kategori": "Perde",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE677784.jpg"
     },
     {
       "emoji": "💡",
-      "isim": "Çocuk masa lambası",
+      "isim": "Beyaz çocuk masa lambası",
       "bilgi": "IKEA · Aydınlatma",
       "fiyat": 279.0,
-      "kategori": "Aydınlatma"
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE761501.jpg"
     },
     {
-      "emoji": "💡",
-      "isim": "Sarkıt lamba",
-      "bilgi": "IKEA · Aydınlatma",
+      "emoji": "🛏️",
+      "isim": "Antrasit 50x50 cm kırlent kılıfı",
+      "bilgi": "IKEA · Karyola",
       "fiyat": 299.0,
-      "kategori": "Aydınlatma"
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE968567.jpg"
     },
     {
       "emoji": "🟨",
-      "isim": "Kilim",
+      "isim": "Bej 55x85 cm küçük halı",
       "bilgi": "IKEA · Kilim",
-      "fiyat": 479.0,
-      "kategori": "Kilim"
+      "fiyat": 299.0,
+      "kategori": "Kilim",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE688123.jpg"
     },
     {
-      "emoji": "🟦",
-      "isim": "Büyük halı",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 549.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Saklama gözlü puf",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 579.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "🧸",
-      "isim": "Çocuk sandalyesi",
-      "bilgi": "IKEA · Çocuk Mobilyası",
-      "fiyat": 949.0,
-      "kategori": "Çocuk Mobilyası"
-    },
-    {
-      "emoji": "🪟",
-      "isim": "Karartma perde",
-      "bilgi": "IKEA · Perde",
-      "fiyat": 999.0,
-      "kategori": "Perde"
-    },
-    {
-      "emoji": "🪟",
-      "isim": "Bebek perdesi",
-      "bilgi": "IKEA · Perde",
-      "fiyat": 999.0,
-      "kategori": "Perde"
-    },
-    {
-      "emoji": "🧸",
-      "isim": "Çocuk Mobilyası",
-      "bilgi": "IKEA · Çocuk Mobilyası",
-      "fiyat": 999.0,
-      "kategori": "Çocuk Mobilyası"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "Dış mekan raf ünitesi",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 999.0,
-      "kategori": "Dış Mekan"
+      "emoji": "🪑",
+      "isim": "Beyaz 35x35 cm yan sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 379.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE848800.jpg"
     },
     {
       "emoji": "💡",
-      "isim": "Çalışma lambası",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 1099.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "💺",
-      "isim": "Çocuk çalışma sandalyesi",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 1199.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
-      "emoji": "💄",
-      "isim": "Masa aynası",
-      "bilgi": "IKEA · Makyaj Masası",
-      "fiyat": 1299.0,
-      "kategori": "Makyaj Masası"
-    },
-    {
-      "emoji": "💡",
-      "isim": "LED'li masa lambası",
+      "isim": "Beyaz abajur",
       "bilgi": "IKEA · Masa Lambası",
-      "fiyat": 1299.0,
-      "kategori": "Masa Lambası"
-    },
-    {
-      "emoji": "💡",
-      "isim": "LED'li dekoratif aydınlatma",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 1399.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Tekli koltuk",
-      "bilgi": "IKEA · Koltuk",
-      "fiyat": 1599.0,
-      "kategori": "Koltuk"
-    },
-    {
-      "emoji": "💡",
-      "isim": "Abajur",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 1599.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "💡",
-      "isim": "Sarkıt lamba abajur başlığı",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 2499.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "🟦",
-      "isim": "Eskitme halı",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 2499.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "Döşemeli sandalye",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 2799.0,
-      "kategori": "Sandalye"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "Gardırop",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 2999.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🚪",
-      "isim": "Gardırop",
-      "bilgi": "IKEA · Gardırop",
-      "fiyat": 2999.0,
-      "kategori": "Gardırop"
-    },
-    {
-      "emoji": "💡",
-      "isim": "Aydınlatma",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 2999.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "🟦",
-      "isim": "Halı",
-      "bilgi": "IKEA · Halı",
-      "fiyat": 2999.0,
-      "kategori": "Halı"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "Dış Mekan",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 2999.0,
-      "kategori": "Dış Mekan"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Tekli koltuk kılıfı",
-      "bilgi": "IKEA · Koltuk",
-      "fiyat": 3000.0,
-      "kategori": "Koltuk"
-    },
-    {
-      "emoji": "💺",
-      "isim": "Çalışma sandalyesi",
-      "bilgi": "IKEA · Çalışma Sandalyesi",
-      "fiyat": 3299.0,
-      "kategori": "Çalışma Sandalyesi"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "Komodin",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 3499.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "Komodin",
-      "bilgi": "IKEA · Komodin",
-      "fiyat": 3499.0,
-      "kategori": "Komodin"
-    },
-    {
-      "emoji": "🪞",
-      "isim": "Yuvarlak ayna",
-      "bilgi": "IKEA · Ayna",
-      "fiyat": 3499.0,
-      "kategori": "Ayna"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "Sandalye",
-      "bilgi": "IKEA · Sandalye",
-      "fiyat": 3799.0,
-      "kategori": "Sandalye"
-    },
-    {
-      "emoji": "🪞",
-      "isim": "Ayna",
-      "bilgi": "IKEA · Ayna",
-      "fiyat": 3799.0,
-      "kategori": "Ayna"
-    },
-    {
-      "emoji": "💄",
-      "isim": "Makyaj Masası",
-      "bilgi": "IKEA · Makyaj Masası",
-      "fiyat": 3999.0,
-      "kategori": "Makyaj Masası"
-    },
-    {
-      "emoji": "📚",
-      "isim": "Kitaplık",
-      "bilgi": "IKEA · Kitaplık",
-      "fiyat": 3999.0,
-      "kategori": "Kitaplık"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "Yatak Odası",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 4799.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "Yan sehpa",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 4999.0,
-      "kategori": "Sehpa"
-    },
-    {
-      "emoji": "🪟",
-      "isim": "Jaluzi",
-      "bilgi": "IKEA · Perde",
-      "fiyat": 4999.0,
-      "kategori": "Perde"
-    },
-    {
-      "emoji": "🚪",
-      "isim": "Gardırop kapağı",
-      "bilgi": "IKEA · PAX Gardırop",
-      "fiyat": 5200.0,
-      "kategori": "PAX Gardırop"
-    },
-    {
-      "emoji": "💻",
-      "isim": "Çalışma Masası",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 5999.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "Kapaklı dolap",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 5999.0,
-      "kategori": "Dış Mekan"
-    },
-    {
-      "emoji": "🪑",
-      "isim": "Orta sehpa",
-      "bilgi": "IKEA · Sehpa",
-      "fiyat": 6499.0,
-      "kategori": "Sehpa"
-    },
-    {
-      "emoji": "💻",
-      "isim": "Çocuk çalışma masası",
-      "bilgi": "IKEA · Çalışma Masası",
-      "fiyat": 7499.0,
-      "kategori": "Çalışma Masası"
-    },
-    {
-      "emoji": "🍼",
-      "isim": "Bebek Mobilyası",
-      "bilgi": "IKEA · Bebek Mobilyası",
-      "fiyat": 7499.0,
-      "kategori": "Bebek Mobilyası"
-    },
-    {
-      "emoji": "📚",
-      "isim": "Cam kapaklı kitaplık",
-      "bilgi": "IKEA · Kitaplık",
-      "fiyat": 7999.0,
-      "kategori": "Kitaplık"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "Katlanabilir masa ve katlanabilir sandalye seti",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 9397.0,
-      "kategori": "Dış Mekan"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Açık raf ünitesi",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 9999.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "Şifonyer",
-      "bilgi": "IKEA · Şifonyer",
-      "fiyat": 10999.0,
-      "kategori": "Şifonyer"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Döner berjer",
-      "bilgi": "IKEA · Koltuk",
-      "fiyat": 11999.0,
-      "kategori": "Koltuk"
-    },
-    {
-      "emoji": "🗄️",
-      "isim": "Çekmeceli şifonyer",
-      "bilgi": "IKEA · Şifonyer",
-      "fiyat": 13999.0,
-      "kategori": "Şifonyer"
-    },
-    {
-      "emoji": "🧸",
-      "isim": "Ters çevrilebilen çocuk karyolası",
-      "bilgi": "IKEA · Çocuk Mobilyası",
-      "fiyat": 13999.0,
-      "kategori": "Çocuk Mobilyası"
-    },
-    {
-      "emoji": "📺",
-      "isim": "Tv sehpası",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 15999.0,
-      "kategori": "TV Ünitesi"
-    },
-    {
-      "emoji": "🍼",
-      "isim": "Çocuk gardırobu",
-      "bilgi": "IKEA · Bebek Mobilyası",
-      "fiyat": 15999.0,
-      "kategori": "Bebek Mobilyası"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "Açık gardırop",
-      "bilgi": "IKEA · Yatak Odası",
-      "fiyat": 18999.0,
-      "kategori": "Yatak Odası"
-    },
-    {
-      "emoji": "🟨",
-      "isim": "El dokuması halı",
-      "bilgi": "IKEA · Kilim",
-      "fiyat": 19999.0,
-      "kategori": "Kilim"
-    },
-    {
-      "emoji": "🍽️",
-      "isim": "Yemek Masası",
-      "bilgi": "IKEA · Yemek Masası",
-      "fiyat": 21495.0,
-      "kategori": "Yemek Masası"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "Çift kişilik karyola",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 23999.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "🌳",
-      "isim": "2'li bahçe kanepesi",
-      "bilgi": "IKEA · Dış Mekan",
-      "fiyat": 24190.0,
-      "kategori": "Dış Mekan"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Oturma Odası",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 24998.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "💡",
-      "isim": "Yer lambası",
-      "bilgi": "IKEA · Aydınlatma",
-      "fiyat": 24999.0,
-      "kategori": "Aydınlatma"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Uzanma koltuklu 3'lü kanepe",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 29999.0,
-      "kategori": "Oturma Odası"
-    },
-    {
-      "emoji": "🚪",
-      "isim": "Gardırop",
-      "bilgi": "IKEA · PAX Gardırop",
-      "fiyat": 32700.0,
-      "kategori": "PAX Gardırop"
-    },
-    {
-      "emoji": "📺",
-      "isim": "Tv ünitesi",
-      "bilgi": "IKEA · TV Ünitesi",
-      "fiyat": 33497.0,
-      "kategori": "TV Ünitesi"
-    },
-    {
-      "emoji": "🚪",
-      "isim": "Sürgü kapaklı gardırop",
-      "bilgi": "IKEA · PAX Gardırop",
-      "fiyat": 35300.0,
-      "kategori": "PAX Gardırop"
-    },
-    {
-      "emoji": "🛏️",
-      "isim": "Karyola",
-      "bilgi": "IKEA · Karyola",
-      "fiyat": 37999.0,
-      "kategori": "Karyola"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Bazalı yataklı köşe kanepe",
-      "bilgi": "IKEA · Oturma Odası",
-      "fiyat": 39999.0,
-      "kategori": "Oturma Odası"
+      "fiyat": 379.0,
+      "kategori": "Masa Lambası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE606395.jpg"
     },
     {
       "emoji": "📦",
-      "isim": "Hurç",
+      "isim": "Beyaz 34x51x18 cm bölmeli kutu",
+      "bilgi": "IKEA · Hurç",
+      "fiyat": 399.0,
+      "kategori": "Hurç",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE786994.jpg"
+    },
+    {
+      "emoji": "📦",
+      "isim": "Beyaz 43x53x19 cm hurç",
+      "bilgi": "IKEA · Hurç",
+      "fiyat": 479.0,
+      "kategori": "Hurç",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE728045.jpg"
+    },
+    {
+      "emoji": "🟨",
+      "isim": "Gri-beyaz 80x150 cm yolluk",
+      "bilgi": "IKEA · Kilim",
+      "fiyat": 479.0,
+      "kategori": "Kilim",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE856220.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Natürel-kırık beyaz 120x180 cm büyük halı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 549.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE755879.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Siyah katlanır sandalye",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 629.0,
+      "kategori": "Sandalye",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE736184.jpg"
+    },
+    {
+      "emoji": "📦",
+      "isim": "Beyaz 35x45x125 cm bölmeli düzenleyici",
+      "bilgi": "IKEA · Hurç",
+      "fiyat": 749.0,
+      "kategori": "Hurç",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE727677.jpg"
+    },
+    {
+      "emoji": "📦",
+      "isim": "Beyaz 22x34x16 cm ayakkabı kutusu",
+      "bilgi": "IKEA · Hurç",
+      "fiyat": 799.0,
+      "kategori": "Hurç",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE728167.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Beyaz 90x26x45 cm tv sehpası",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 799.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE692088.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Siyah plastik sandalye",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 799.0,
+      "kategori": "Sandalye",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE965553.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz 50x60 cm ince dolgulu yastık",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 899.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE763889.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Bej 55x85 cm yapay koyun postu",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 899.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE860315.jpg"
+    },
+    {
+      "emoji": "🧸",
+      "isim": "Açık mavi çocuk sandalyesi",
+      "bilgi": "IKEA · Çocuk Mobilyası",
+      "fiyat": 949.0,
+      "kategori": "Çocuk Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE924503.jpg"
+    },
+    {
+      "emoji": "🟨",
+      "isim": "Gri-beyaz 155x220 cm büyük halı",
+      "bilgi": "IKEA · Kilim",
+      "fiyat": 999.0,
+      "kategori": "Kilim",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE755883.jpg"
+    },
+    {
+      "emoji": "🪟",
+      "isim": "Bej 210x300 cm karartma perde",
+      "bilgi": "IKEA · Perde",
+      "fiyat": 999.0,
+      "kategori": "Perde",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE948758.jpg"
+    },
+    {
+      "emoji": "🪟",
+      "isim": "Yeşil 210x300 cm karartma perde",
+      "bilgi": "IKEA · Perde",
+      "fiyat": 999.0,
+      "kategori": "Perde",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE948766.jpg"
+    },
+    {
+      "emoji": "🪟",
+      "isim": "Beyaz 120x300 cm bebek perdesi",
+      "bilgi": "IKEA · Perde",
+      "fiyat": 999.0,
+      "kategori": "Perde",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE758870.jpg"
+    },
+    {
+      "emoji": "🧸",
+      "isim": "Beyaz 120x300 cm bebek perdesi",
+      "bilgi": "IKEA · Çocuk Mobilyası",
+      "fiyat": 999.0,
+      "kategori": "Çocuk Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE758870.jpg"
+    },
+    {
+      "emoji": "🌳",
+      "isim": "Galvanizli 60x27x74 cm dış mekan raf ünitesi",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 999.0,
+      "kategori": "Dış Mekan",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE704408.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Siyah 42x34 cm komodin",
+      "bilgi": "IKEA · Komodin",
+      "fiyat": 1099.0,
+      "kategori": "Komodin",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE924478.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Beyaz-beyaz çocuk sandalyesi",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 1099.0,
+      "kategori": "Sandalye",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE961206.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Siyah 15.6 cm çalışma lambası",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 1099.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE811820.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Beyaz 90x35x40 cm tv sehpası",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 1199.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE815405.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Beyaz çocuk çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 1199.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE776395.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Beyaz çocuk çalışma sandalyesi",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 1199.0,
+      "kategori": "Sandalye",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE776395.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Siyah 63 cm bar sandalyesi",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 1199.0,
+      "kategori": "Sandalye",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE798867.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Siyah 27x43 cm masa aynası",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 1299.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE698268.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Opal beyaz cam-pirinç LED'li masa lambası",
+      "bilgi": "IKEA · Masa Lambası",
+      "fiyat": 1299.0,
+      "kategori": "Masa Lambası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE967129.jpg"
+    },
+    {
+      "emoji": "📚",
+      "isim": "Beyaz 50x25x160 cm kitaplık",
+      "bilgi": "IKEA · Kitaplık",
+      "fiyat": 1399.0,
+      "kategori": "Kitaplık",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE815388.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Pembe 26",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 1399.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE999469.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Çok renkli 15x30 cm çocuk masa lambası",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 1499.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE902204.jpg"
+    },
+    {
+      "emoji": "🧸",
+      "isim": "Pembe 133x160 cm çocuk halısı",
+      "bilgi": "IKEA · Çocuk Mobilyası",
+      "fiyat": 1499.0,
+      "kategori": "Çocuk Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE892264.jpg"
+    },
+    {
+      "emoji": "🌳",
+      "isim": "Açık kahverengi katlanır tabure",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 1499.0,
+      "kategori": "Dış Mekan",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE880061.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Diseröd kırmızı tekli koltuk",
+      "bilgi": "IKEA · Koltuk",
+      "fiyat": 1599.0,
+      "kategori": "Koltuk",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE942787.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Bej 25 cm abajur",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 1599.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE899632.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz siyah-kareli 240x220/50x60 cm çift kişilik nevresim seti",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 1999.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE940538.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Natürel 80x150 cm jüt halı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 1999.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE583379.jpg"
+    },
+    {
+      "emoji": "🟨",
+      "isim": "Natürel 80x150 cm jüt halı",
+      "bilgi": "IKEA · Kilim",
+      "fiyat": 1999.0,
+      "kategori": "Kilim",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE583379.jpg"
+    },
+    {
+      "emoji": "🧸",
+      "isim": "Açık mavi 85 cm çocuk masası",
+      "bilgi": "IKEA · Çocuk Mobilyası",
+      "fiyat": 2099.0,
+      "kategori": "Çocuk Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE924524.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Açık bej 69x67 cm 3 çekmeceli şifonyer",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 2199.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE788460.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Açık bej 69x67 cm 3 çekmeceli şifonyer",
+      "bilgi": "IKEA · Şifonyer",
+      "fiyat": 2199.0,
+      "kategori": "Şifonyer",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE788460.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Siyah-huş 53x50 cm yan sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 2499.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE884680.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Siyah-koyu gri 53x50 cm yan sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 2499.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE884681.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Rattan 45 cm sarkıt lamba abajur başlığı",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 2499.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE990284.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Bej-koyu bej 133x195 cm eskitme halı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 2499.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE983699.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Beyaz 98x59 cm orta sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 2699.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE989265.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Açık bej 49x55x186 cm gardırop",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 2999.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE788459.jpg"
+    },
+    {
+      "emoji": "🚪",
+      "isim": "Açık bej 49x55x186 cm gardırop",
+      "bilgi": "IKEA · Gardırop",
+      "fiyat": 2999.0,
+      "kategori": "Gardırop",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE788459.jpg"
+    },
+    {
+      "emoji": "📚",
+      "isim": "Mavi 40x28x202 cm kitaplık",
+      "bilgi": "IKEA · Kitaplık",
+      "fiyat": 2999.0,
+      "kategori": "Kitaplık",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE997200.jpg"
+    },
+    {
+      "emoji": "🍽️",
+      "isim": "Siyah-Bomstad siyah döşemeli ahşap sandalye",
+      "bilgi": "IKEA · Yemek Masası",
+      "fiyat": 2999.0,
+      "kategori": "Yemek Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE969279.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Bej-açık kahverengi 160x230 cm büyük halı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 2999.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE983672.jpg"
+    },
+    {
+      "emoji": "🌳",
+      "isim": "Açık kahverengi 63X63 cm bahçe koltuğu oturma bölmesi",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 2999.0,
+      "kategori": "Dış Mekan",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE880048.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Ribersborg koyu gri-bej tekli koltuk kılıfı",
+      "bilgi": "IKEA · Koltuk",
+      "fiyat": 3000.0,
+      "kategori": "Koltuk",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE989263.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Beyaz 160x35x36 cm tv sehpası",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 3199.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE803708.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Beyaz 111x39 cm çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 3199.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE944490.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Tonerud koyu bej saklama gözlü puf",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 3299.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE941358.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Titrek kavak-beyaz 70x35x51 cm yan sehpa",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 3299.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE996027.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Beyaz çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 3299.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE857202.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Koyu yeşil 200x300 cm büyük halı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 3299.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE999310.jpg"
+    },
+    {
+      "emoji": "🪞",
+      "isim": "Altın rengi 78x78 cm duvar aynası",
+      "bilgi": "IKEA · Ayna",
+      "fiyat": 3299.0,
+      "kategori": "Ayna",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE813215.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz 50x37x76 cm komodin",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 3499.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE990525.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Gri-yeşil-açık kahverengi boyalı 46x35 cm komodin",
+      "bilgi": "IKEA · Komodin",
+      "fiyat": 3499.0,
+      "kategori": "Komodin",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE977593.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Beyaz 50x37x76 cm komodin",
+      "bilgi": "IKEA · Komodin",
+      "fiyat": 3499.0,
+      "kategori": "Komodin",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE990525.jpg"
+    },
+    {
+      "emoji": "🪞",
+      "isim": "Siyah 80 cm yuvarlak ayna",
+      "bilgi": "IKEA · Ayna",
+      "fiyat": 3499.0,
+      "kategori": "Ayna",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE767399.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Beyaz 70x42 cm makyaj masası",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 3799.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE693167.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Huş kaplama 46 cm yan sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 3799.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE997462.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Siyah oyuncu sandalyesi",
+      "bilgi": "IKEA · Sandalye",
+      "fiyat": 3799.0,
+      "kategori": "Sandalye",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE840417.jpg"
+    },
+    {
+      "emoji": "🪞",
+      "isim": "Meşe kaplama 60 cm yuvarlak ayna",
+      "bilgi": "IKEA · Ayna",
+      "fiyat": 3799.0,
+      "kategori": "Ayna",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE953533.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Gri 53x43x69 cm komodin",
+      "bilgi": "IKEA · Komodin",
+      "fiyat": 3999.0,
+      "kategori": "Komodin",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE932634.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Beyaz-bej plastik sandalye",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 3999.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE735606.jpg"
+    },
+    {
+      "emoji": "📚",
+      "isim": "Beyaz 80x28x202 cm kitaplık",
+      "bilgi": "IKEA · Kitaplık",
+      "fiyat": 3999.0,
+      "kategori": "Kitaplık",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE692385.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Çok renkli-beyaz 120x60 cm çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 4299.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE982750.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Bej çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 4499.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE825954.jpg"
+    },
+    {
+      "emoji": "🪞",
+      "isim": "Altın rengi 60x170 cm boy aynası",
+      "bilgi": "IKEA · Ayna",
+      "fiyat": 4499.0,
+      "kategori": "Ayna",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE960160.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Kahverengi ceviz görünüm 54x38x58 cm komodin",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 4799.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE962860.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Kahverengi ceviz görünüm 54x38x58 cm komodin",
+      "bilgi": "IKEA · Komodin",
+      "fiyat": 4799.0,
+      "kategori": "Komodin",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE962860.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Meşe kaplama-koyu kahve 55 cm yan sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 4999.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE955299.jpg"
+    },
+    {
+      "emoji": "🪟",
+      "isim": "Bambu 140x155 cm jaluzi",
+      "bilgi": "IKEA · Perde",
+      "fiyat": 4999.0,
+      "kategori": "Perde",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE982295.jpg"
+    },
+    {
+      "emoji": "🚪",
+      "isim": "Mavi 50x229 cm gardırop kapağı",
+      "bilgi": "IKEA · PAX Gardırop",
+      "fiyat": 5200.0,
+      "kategori": "PAX Gardırop",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE970560.jpg"
+    },
+    {
+      "emoji": "🧸",
+      "isim": "Açık beyaz vernikli çam 94x44x91 cm saklama ünitesi iskeleti",
+      "bilgi": "IKEA · Çocuk Mobilyası",
+      "fiyat": 5299.0,
+      "kategori": "Çocuk Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE701346.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Beyaz 156x38x60 cm tv sehpası",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 5499.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE876450.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Çam-beyaz 90x55 cm çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 5499.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE984393.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Ağartılmış meşe görünümlü 105x50 cm çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 5999.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE787707.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Dişbudak-beyaz yer lambası",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 5999.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE712536.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Yeşil 153x215 cm çocuk halısı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 5999.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE990412.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Beyaz 120x41 cm makyaj masası",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 6499.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE769781.jpg"
+    },
+    {
+      "emoji": "🪑",
+      "isim": "Altın rengi-cam 88 cm orta sehpa",
+      "bilgi": "IKEA · Sehpa",
+      "fiyat": 6499.0,
+      "kategori": "Sehpa",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE955365.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Açık turuncu-parlak cila 80x78 cm 3 çekmeceli şifonyer",
+      "bilgi": "IKEA · Şifonyer",
+      "fiyat": 6799.0,
+      "kategori": "Şifonyer",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE975552.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz 80x100 cm 4 çekmeceli şifonyer",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 6999.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE621344.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Beyaz 80x100 cm 4 çekmeceli şifonyer",
+      "bilgi": "IKEA · Şifonyer",
+      "fiyat": 6999.0,
+      "kategori": "Şifonyer",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE621344.jpg"
+    },
+    {
+      "emoji": "🍼",
+      "isim": "Beyaz-kırmızı 80x55x78 cm çekmeceli depolama ünitesi",
+      "bilgi": "IKEA · Bebek Mobilyası",
+      "fiyat": 6999.0,
+      "kategori": "Bebek Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE939448.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Bambu-beyaz 140x65 cm çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 7299.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE813088.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Mavi-beyaz 80x63 cm çocuk çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 7499.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE872163.jpg"
+    },
+    {
+      "emoji": "🟦",
+      "isim": "Gri 170x240 cm büyük halı",
+      "bilgi": "IKEA · Halı",
+      "fiyat": 7499.0,
+      "kategori": "Halı",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE907227.jpg"
+    },
+    {
+      "emoji": "🪞",
+      "isim": "Meşe kaplama-altın rengi 90x90 cm duvar aynası",
+      "bilgi": "IKEA · Ayna",
+      "fiyat": 7499.0,
+      "kategori": "Ayna",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE954185.jpg"
+    },
+    {
+      "emoji": "🍼",
+      "isim": "Yeşil 60x120 cm bebek karyolası",
+      "bilgi": "IKEA · Bebek Mobilyası",
+      "fiyat": 7499.0,
+      "kategori": "Bebek Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE937128.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Bambu 76x47 cm makyaj masası",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 7999.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE748752.jpg"
+    },
+    {
+      "emoji": "📚",
+      "isim": "Beyaz 80x30x202 cm cam kapaklı kitaplık",
+      "bilgi": "IKEA · Kitaplık",
+      "fiyat": 7999.0,
+      "kategori": "Kitaplık",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE700390.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Beyaz 80x60 cm çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 7999.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE933189.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Grasnas kırmızı çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 7999.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE899041.jpg"
+    },
+    {
+      "emoji": "🍼",
+      "isim": "Gri 60x120 cm bebek karyolası",
+      "bilgi": "IKEA · Bebek Mobilyası",
+      "fiyat": 7999.0,
+      "kategori": "Bebek Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE806085.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Vissle gri çocuk koltuğu",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 8499.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE737122.jpg"
+    },
+    {
+      "emoji": "🌳",
+      "isim": "Parlak sarı 65x65 cm katlanabilir masa ve katlanabilir sandalye seti",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 9397.0,
+      "kategori": "Dış Mekan",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE952929.jpg"
+    },
+    {
+      "emoji": "🌳",
+      "isim": "Parlak kırmızı 65x65 cm katlanabilir masa ve katlanabilir sandalye seti",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 9397.0,
+      "kategori": "Dış Mekan",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE952932.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Vissle koyu gri 160x200 cm çift kişilik karyola",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 9499.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE926650.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz 90x200 cm tek kişilik karyola",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 9499.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE704551.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Beyaz 100x48 cm makyaj masası",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 9499.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE753575.jpg"
+    },
+    {
+      "emoji": "🍽️",
+      "isim": "Siyah-kahverengi 4-6 kişilik açılır yemek masası",
+      "bilgi": "IKEA · Yemek Masası",
+      "fiyat": 9499.0,
+      "kategori": "Yemek Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE969282.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Kırık beyaz 82x47x90 cm 4 çekmeceli şifonyer",
+      "bilgi": "IKEA · Şifonyer",
+      "fiyat": 10999.0,
+      "kategori": "Şifonyer",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE933967.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Gunnared koyu mavi döner berjer",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 10999.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE1000172.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Vissle koyu gri orta çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 10999.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE734597.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Kelinge bej döner berjer",
+      "bilgi": "IKEA · Koltuk",
+      "fiyat": 11999.0,
+      "kategori": "Koltuk",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE1004767.jpg"
+    },
+    {
+      "emoji": "💻",
+      "isim": "Beyaz 100x70 cm çocuk çalışma masası",
+      "bilgi": "IKEA · Çalışma Masası",
+      "fiyat": 11999.0,
+      "kategori": "Çalışma Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE872198.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Vissle koyu gri büyük çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 11999.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE975233.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Beyaz vernik 108x96 cm 3 çekmeceli şifonyer",
+      "bilgi": "IKEA · Şifonyer",
+      "fiyat": 13999.0,
+      "kategori": "Şifonyer",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE311000.jpg"
+    },
+    {
+      "emoji": "💄",
+      "isim": "Beyaz 100x50 cm makyaj masası",
+      "bilgi": "IKEA · Makyaj Masası",
+      "fiyat": 13999.0,
+      "kategori": "Makyaj Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE693165.jpg"
+    },
+    {
+      "emoji": "🍼",
+      "isim": "Gri alt değiştirme masası ve şifonyer",
+      "bilgi": "IKEA · Bebek Mobilyası",
+      "fiyat": 13999.0,
+      "kategori": "Bebek Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE941026.jpg"
+    },
+    {
+      "emoji": "🗄️",
+      "isim": "Gri-kahverengi 93x50x91 cm 3 çekmeceli şifonyer",
+      "bilgi": "IKEA · Şifonyer",
+      "fiyat": 14999.0,
+      "kategori": "Şifonyer",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE982328.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Çam 80-160x200 cm çift kişilik karyola",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 15999.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE947203.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Meşe kaplama-kahverengi 178x37x55 cm tv sehpası",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 15999.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE898747.jpg"
+    },
+    {
+      "emoji": "🍼",
+      "isim": "Beyaz 80x50x171 cm çocuk gardırobu",
+      "bilgi": "IKEA · Bebek Mobilyası",
+      "fiyat": 15999.0,
+      "kategori": "Bebek Mobilyası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE692872.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz 90x200 cm tek kişilik baza",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 18379.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE780931.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Bambu 120x186 cm açık gardırop",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 18999.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE748766.jpg"
+    },
+    {
+      "emoji": "💺",
+      "isim": "Grann altın-kahverengi çalışma sandalyesi",
+      "bilgi": "IKEA · Çalışma Sandalyesi",
+      "fiyat": 18999.0,
+      "kategori": "Çalışma Sandalyesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE734591.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Meşe kaplama 100x40x86 cm vitrin",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 19999.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE967727.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Meşe kaplama 179x42x56 cm tv sehpası",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 19999.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE967721.jpg"
+    },
+    {
+      "emoji": "🟨",
+      "isim": "Çok renkli-kırmızı 170x240 cm el dokuması halı",
+      "bilgi": "IKEA · Kilim",
+      "fiyat": 19999.0,
+      "kategori": "Kilim",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE859748.jpg"
+    },
+    {
+      "emoji": "🍽️",
+      "isim": "Siyah 4 sandalyeli yemek masası takımı",
+      "bilgi": "IKEA · Yemek Masası",
+      "fiyat": 21495.0,
+      "kategori": "Yemek Masası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE985054.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Gri-yeşil 80x200 cm divan",
+      "bilgi": "IKEA · Yatak Odası",
+      "fiyat": 22999.0,
+      "kategori": "Yatak Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE997296.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Beyaz vernik 140x200 cm çift kişilik karyola",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 23999.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE698353.jpg"
+    },
+    {
+      "emoji": "🌳",
+      "isim": "Açık kahverengi 162 cm 2'li bahçe kanepesi",
+      "bilgi": "IKEA · Dış Mekan",
+      "fiyat": 24190.0,
+      "kategori": "Dış Mekan",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE984739.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Tonerud kırmızı berjer ve puf",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 24998.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE874939.jpg"
+    },
+    {
+      "emoji": "💡",
+      "isim": "Gri 145 cm yer lambası",
+      "bilgi": "IKEA · Aydınlatma",
+      "fiyat": 24999.0,
+      "kategori": "Aydınlatma",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE712324.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Blekinge beyaz uzanma koltuklu 3'lü kanepe",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 29999.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE977665.jpg"
+    },
+    {
+      "emoji": "🚪",
+      "isim": "Beyaz-gri-yeşil 200x60x236 cm PAX gardırop",
+      "bilgi": "IKEA · PAX Gardırop",
+      "fiyat": 32700.0,
+      "kategori": "PAX Gardırop",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE979288.jpg"
+    },
+    {
+      "emoji": "📺",
+      "isim": "Beyaz 346x46x199 cm tv ünitesi",
+      "bilgi": "IKEA · TV Ünitesi",
+      "fiyat": 33497.0,
+      "kategori": "TV Ünitesi",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE1007213.jpg"
+    },
+    {
+      "emoji": "🚪",
+      "isim": "Beyaz 150x43x236 cm PAX sürgü kapaklı gardırop",
+      "bilgi": "IKEA · PAX Gardırop",
+      "fiyat": 35300.0,
+      "kategori": "PAX Gardırop",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE971543.jpg"
+    },
+    {
+      "emoji": "🛏️",
+      "isim": "Gunnared koyu gri 180x200 cm çift kişilik karyola",
+      "bilgi": "IKEA · Karyola",
+      "fiyat": 37999.0,
+      "kategori": "Karyola",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE802888.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Tibbleby bej-gri bazalı yataklı köşe kanepe",
+      "bilgi": "IKEA · Oturma Odası",
+      "fiyat": 39999.0,
+      "kategori": "Oturma Odası",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE911220.jpg"
+    },
+    {
+      "emoji": "📦",
+      "isim": "Beyaz-meşe kaplama 150x60x236 cm PAX gardırop",
       "bilgi": "IKEA · Hurç",
       "fiyat": 47720.0,
-      "kategori": "Hurç"
+      "kategori": "Hurç",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE964443.jpg"
     }
   ]
 }

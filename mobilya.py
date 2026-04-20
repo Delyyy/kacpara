@@ -132,6 +132,35 @@ URUN_URL_RE = re.compile(
 # Fiyat: class="new" veya class="price" icinde sayi, ondan sonra "TL" span
 FIYAT_RE = re.compile(r'class="(?:new|price)[^"]*"[^>]*>\s*([\d.,]+)\s*<span[^>]*class="tl"', re.DOTALL)
 
+# Detay sayfasi icin: og:title ve og:image meta etiketleri
+OG_TITLE_RE = re.compile(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"')
+OG_IMAGE_RE = re.compile(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"')
+# "- NNNNNNNN | IKEA" sonekini temizle
+SONEK_RE = re.compile(r'\s*-\s*\d+\s*\|\s*IKEA\s*$')
+
+
+def urun_detay(urun_url):
+    """Urun sayfasindan (og:title, og:image) al.
+    og:title: "SANDSBERG siyah plastik sandalye - 30605423 | IKEA"
+              -> sonek temizlenir -> "SANDSBERG siyah plastik sandalye"
+    og:image: yuksek cozunurluklu beyaz zeminli urun gorseli.
+    """
+    try:
+        r = requests.get(urun_url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return None, None
+        html = r.text
+        tm = OG_TITLE_RE.search(html)
+        im = OG_IMAGE_RE.search(html)
+        baslik = None
+        if tm:
+            baslik = htmllib.unescape(tm.group(1)).strip()
+            baslik = SONEK_RE.sub('', baslik).strip()
+        gorsel = im.group(1) if im else None
+        return baslik, gorsel
+    except Exception:
+        return None, None
+
 
 def kategori_urunleri(slug, emoji, kategori_adi, limit):
     url = f"https://www.ikea.com.tr/kategori/{slug}"
@@ -171,12 +200,15 @@ def kategori_urunleri(slug, emoji, kategori_adi, limit):
             if not fiyat or fiyat < 10:
                 continue
 
-            # IKEA kategori sayfalari per-SKU urun gorseli sunmuyor;
-            # sadece kategori koleksiyon resimleri var. Emoji kullanilacak.
-            # (Resimler projenin en sonunda manuel toparlanacak.)
+            # Detay sayfasindan tam baslik + og:image al
+            # (Kategori sayfasinda bazi urunlerde acıklama gozukmuyor -
+            # sadece marka gorulur. Detay sayfasi tam bilgi verir.)
+            detay_baslik, detay_gorsel = urun_detay(urun_url)
+            time.sleep(0.15)  # nazik ol
 
-            # Marka + model + rengi temizle, sadece urun tipini birak
-            isim = basitlestir_isim(inner_text, kategori_adi)
+            # Ham isim: detay varsa oradan, yoksa kategori sayfasindaki metin
+            ham_isim = detay_baslik or inner_text
+            isim = basitlestir_isim(ham_isim, kategori_adi)
 
             # Ayni urunun farkli varyantlari cikabiliyor; ayni isim varsa atla
             isim_key = isim.lower()
@@ -192,6 +224,8 @@ def kategori_urunleri(slug, emoji, kategori_adi, limit):
                 "fiyat": fiyat,
                 "kategori": kategori_adi,
             }
+            if detay_gorsel:
+                urun["gorsel"] = detay_gorsel
             urunler.append(urun)
 
             if len(urunler) >= limit:
