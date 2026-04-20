@@ -390,7 +390,7 @@
       <div class="guess-label">Sence kaç TL?</div>
       <div class="input-wrap">
         <span class="currency">₺</span>
-        <input type="number" id="guess-input" placeholder="0" inputmode="numeric" autocomplete="off">
+        <input type="text" id="guess-input" placeholder="0" inputmode="numeric" autocomplete="off">
       </div>
       <button class="btn-primary" id="submit-btn" disabled>Tahmin et</button>
     </div>
@@ -692,9 +692,47 @@ function loadQuestion() {
   setTimeout(() => input.focus(), 50);
 }
 
+// "1000000" -> "1.000.000" (Türkçe binlik ayraç)
+function formatThousands(digits) {
+  return digits.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+
+// "1.000.000" -> 1000000
+function parseDotted(s) {
+  return parseFloat(s.replace(/\./g, '').replace(/,/g, '.'));
+}
+
+// Kullanıcı yazarken inputu formatla, cursor pozisyonunu koru
+function formatGuessInput(el) {
+  const raw = el.value;
+  const cursorPos = el.selectionStart || 0;
+  // Cursor'un solunda kaç rakam var
+  const digitsBeforeCursor = raw.slice(0, cursorPos).replace(/\D/g, '').length;
+  // Sadece rakamları al, bastaki sıfırları sil
+  let digits = raw.replace(/\D/g, '');
+  digits = digits.replace(/^0+(?=\d)/, '');
+  const formatted = formatThousands(digits);
+  el.value = formatted;
+  // Cursor'u aynı sayıda rakamın solundan sonrasına yerleştir
+  if (digitsBeforeCursor === 0) {
+    el.setSelectionRange(0, 0);
+    return;
+  }
+  let seen = 0, newPos = formatted.length;
+  for (let i = 0; i < formatted.length; i++) {
+    if (/\d/.test(formatted[i])) {
+      seen++;
+      if (seen === digitsBeforeCursor) { newPos = i + 1; break; }
+    }
+  }
+  el.setSelectionRange(newPos, newPos);
+}
+
 document.getElementById('guess-input').addEventListener('input', (e) => {
+  formatGuessInput(e.target);
   const v = e.target.value.trim();
-  document.getElementById('submit-btn').disabled = !v || parseFloat(v) <= 0;
+  const num = parseDotted(v);
+  document.getElementById('submit-btn').disabled = !v || !num || num <= 0;
 });
 
 document.getElementById('guess-input').addEventListener('keydown', (e) => {
@@ -706,7 +744,7 @@ document.getElementById('guess-input').addEventListener('keydown', (e) => {
 
 function submitGuess() {
   const q = questions[current];
-  const guess = parseFloat(document.getElementById('guess-input').value);
+  const guess = parseDotted(document.getElementById('guess-input').value);
   if (!guess || guess <= 0) return;
   const diff = Math.abs(guess - q.answer);
   const pct = (diff / q.answer) * 100;
