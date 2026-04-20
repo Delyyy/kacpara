@@ -196,19 +196,21 @@ const STATIC_PRODUCTS = [
   {emoji:"🎧", name:"AirPods 4", info:"Apple Türkiye resmi", answer:8500}
 ];
 
-const DOVIZ_URL  = "otomatik_fiyatlar.json";
-const MARKET_URL = "otomatik_market.json";
-const RESIM_URL  = "resimler.json";
+const DOVIZ_URL      = "otomatik_fiyatlar.json";
+const MARKET_URL     = "otomatik_market.json";
+const ELEKTRONIK_URL = "otomatik_elektronik.json";
+const RESIM_URL      = "resimler.json";
 
 let IMG_MAP = {};
 
 let ALL_PRODUCTS = [];
 
 async function loadLivePrices() {
-  const [dovizRes, marketRes, resimRes] = await Promise.allSettled([
-    fetch(DOVIZ_URL  + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
-    fetch(MARKET_URL + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
-    fetch(RESIM_URL  + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
+  const [dovizRes, marketRes, elektronikRes, resimRes] = await Promise.allSettled([
+    fetch(DOVIZ_URL      + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
+    fetch(MARKET_URL     + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
+    fetch(ELEKTRONIK_URL + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
+    fetch(RESIM_URL      + "?t=" + Date.now()).then(r => r.ok ? r.json() : Promise.reject()),
   ]);
 
   if (resimRes.status === "fulfilled") {
@@ -244,6 +246,22 @@ async function loadLivePrices() {
         isLive: true,
         detay: u.detay || null,
         img: IMG_MAP[u.isim] || null
+      });
+    }
+  }
+
+  // Elektronik (Vatan Bilgisayar)
+  if (elektronikRes.status === "fulfilled") {
+    const ed = elektronikRes.value;
+    for (const u of ed.urunler) {
+      liveProducts.push({
+        emoji: u.emoji,
+        name: u.isim,
+        info: u.bilgi || "Elektronik",
+        answer: Math.round(u.fiyat * 100) / 100,
+        isLive: true,
+        img: u.gorsel || null,
+        kategori: u.kategori || "Elektronik"
       });
     }
   }
