@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-04-20 07:56",
+  "guncelleme": "2026-04-21 07:26",
   "kaynak": "marketfiyati.org.tr (A101, BIM, Migros, Carrefour, SOK, TK)",
   "not": "Fiyat = eslesen tum urunlerin tum market fiyatlarinin medyani. Son 7 gun icinde guncellenmis, en az 2 market sarti.",
   "toplam_urun": 31,
@@ -8,15 +8,11 @@
       "emoji": "🍅",
       "isim": "1 kg domates",
       "bilgi": "Taze",
-      "fiyat": 129.0,
-      "kac_market": 3,
-      "kac_kayit": 3,
-      "api_baslik": "Domates 1 Kg",
+      "fiyat": 134.45,
+      "kac_market": 2,
+      "kac_kayit": 2,
+      "api_baslik": "Salkım Domates 1 Kg",
       "detay": [
-        {
-          "market": "sok",
-          "fiyat": 119.0
-        },
         {
           "market": "bim",
           "fiyat": 129.0
@@ -31,7 +27,7 @@
       "emoji": "🥒",
       "isim": "1 kg salatalık",
       "bilgi": "Taze",
-      "fiyat": 54.9,
+      "fiyat": 54.7,
       "kac_market": 4,
       "kac_kayit": 6,
       "api_baslik": "Salatalık 1 Kg",
@@ -50,7 +46,7 @@
         },
         {
           "market": "a101",
-          "fiyat": 69.5
+          "fiyat": 59.5
         }
       ]
     },
@@ -58,9 +54,9 @@
       "emoji": "🍆",
       "isim": "1 kg patlıcan",
       "bilgi": "Taze",
-      "fiyat": 45.0,
-      "kac_market": 6,
-      "kac_kayit": 7,
+      "fiyat": 50.95,
+      "kac_market": 5,
+      "kac_kayit": 6,
       "api_baslik": "Tagem Topak Patlıcan 1 Kg",
       "detay": [
         {
@@ -72,20 +68,16 @@
           "fiyat": 38.95
         },
         {
-          "market": "sok",
-          "fiyat": 45.0
-        },
-        {
           "market": "bim",
           "fiyat": 45.0
         },
         {
-          "market": "a101",
-          "fiyat": 45.9
-        },
-        {
           "market": "carrefour",
           "fiyat": 58.4
+        },
+        {
+          "market": "a101",
+          "fiyat": 64.9
         }
       ]
     },
@@ -119,7 +111,7 @@
       "detay": [
         {
           "market": "tarim_kredi",
-          "fiyat": 84.9
+          "fiyat": 94.9
         },
         {
           "market": "bim",
@@ -131,7 +123,7 @@
         },
         {
           "market": "a101",
-          "fiyat": 117.2
+          "fiyat": 122.2
         }
       ]
     },
@@ -140,25 +132,21 @@
       "isim": "1 kg elma",
       "bilgi": "Taze",
       "fiyat": 89.5,
-      "kac_market": 5,
-      "kac_kayit": 17,
+      "kac_market": 4,
+      "kac_kayit": 15,
       "api_baslik": "Ekonomik Elma 1 Kg",
       "detay": [
-        {
-          "market": "tarim_kredi",
-          "fiyat": 74.9
-        },
         {
           "market": "bim",
           "fiyat": 89.0
         },
         {
-          "market": "a101",
-          "fiyat": 89.5
+          "market": "tarim_kredi",
+          "fiyat": 89.0
         },
         {
-          "market": "sok",
-          "fiyat": 99.45
+          "market": "a101",
+          "fiyat": 89.5
         },
         {
           "market": "carrefour",
@@ -180,16 +168,16 @@
           "fiyat": 84.0
         },
         {
-          "market": "a101",
-          "fiyat": 84.9
+          "market": "carrefour",
+          "fiyat": 99.0
         },
         {
           "market": "tarim_kredi",
           "fiyat": 99.0
         },
         {
-          "market": "carrefour",
-          "fiyat": 99.0
+          "market": "a101",
+          "fiyat": 99.5
         }
       ]
     },
@@ -197,18 +185,14 @@
       "emoji": "🧅",
       "isim": "1 kg soğan",
       "bilgi": "Taze",
-      "fiyat": 9.9,
-      "kac_market": 5,
-      "kac_kayit": 5,
+      "fiyat": 14.93,
+      "kac_market": 6,
+      "kac_kayit": 6,
       "api_baslik": "Soğan 1 Kg",
       "detay": [
         {
           "market": "bim",
           "fiyat": 9.75
-        },
-        {
-          "market": "a101",
-          "fiyat": 9.9
         },
         {
           "market": "tarim_kredi",
@@ -217,6 +201,14 @@
         {
           "market": "migros",
           "fiyat": 13.95
+        },
+        {
+          "market": "a101",
+          "fiyat": 15.9
+        },
+        {
+          "market": "sok",
+          "fiyat": 15.9
         },
         {
           "market": "carrefour",
@@ -432,9 +424,9 @@
       "emoji": "🥛",
       "isim": "SEK süt 1 L",
       "bilgi": "Tam yağlı",
-      "fiyat": 59.95,
+      "fiyat": 54.95,
       "kac_market": 3,
-      "kac_kayit": 5,
+      "kac_kayit": 4,
       "api_baslik": "Sek %1.5 Yağlı Süt 1 Lt",
       "detay": [
         {
@@ -447,7 +439,7 @@
         },
         {
           "market": "migros",
-          "fiyat": 79.47
+          "fiyat": 63.95
         }
       ]
     },
@@ -455,22 +447,22 @@
       "emoji": "🥚",
       "isim": "30'lu yumurta",
       "bilgi": "Market",
-      "fiyat": 119.0,
+      "fiyat": 139.0,
       "kac_market": 4,
-      "kac_kayit": 6,
-      "api_baslik": "Kumartaşlı Medium Boy Yumurta 30 Adet",
+      "kac_kayit": 5,
+      "api_baslik": "Bili Bili Yumurta 30 Adet",
       "detay": [
-        {
-          "market": "migros",
-          "fiyat": 99.0
-        },
         {
           "market": "bim",
           "fiyat": 119.0
         },
         {
           "market": "tarim_kredi",
-          "fiyat": 119.0
+          "fiyat": 139.0
+        },
+        {
+          "market": "migros",
+          "fiyat": 139.5
         },
         {
           "market": "carrefour",
@@ -520,7 +512,7 @@
         },
         {
           "market": "migros",
-          "fiyat": 349.9
+          "fiyat": 449.9
         }
       ]
     },
@@ -585,7 +577,7 @@
         },
         {
           "market": "carrefour",
-          "fiyat": 54.2
+          "fiyat": 54.48
         },
         {
           "market": "migros",
@@ -597,9 +589,9 @@
       "emoji": "🥤",
       "isim": "Coca-Cola 1 L",
       "bilgi": "PET şişe",
-      "fiyat": 60.0,
-      "kac_market": 3,
-      "kac_kayit": 3,
+      "fiyat": 57.0,
+      "kac_market": 2,
+      "kac_kayit": 2,
       "api_baslik": "Coca-Cola 1 Lt",
       "detay": [
         {
@@ -608,10 +600,6 @@
         },
         {
           "market": "a101",
-          "fiyat": 60.0
-        },
-        {
-          "market": "migros",
           "fiyat": 60.0
         }
       ]
