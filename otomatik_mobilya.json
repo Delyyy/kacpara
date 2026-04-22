@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-04-21 07:30",
+  "guncelleme": "2026-04-22 07:28",
   "kaynak": "ikea.com.tr",
   "toplam_urun": 149,
   "urunler": [
@@ -492,14 +492,6 @@
       "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE880048.jpg"
     },
     {
-      "emoji": "🛋️",
-      "isim": "Ribersborg koyu gri-bej tekli koltuk kılıfı",
-      "bilgi": "IKEA · Koltuk",
-      "fiyat": 3000.0,
-      "kategori": "Koltuk",
-      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE989263.jpg"
-    },
-    {
       "emoji": "📺",
       "isim": "Beyaz 160x35x36 cm tv sehpası",
       "bilgi": "IKEA · TV Ünitesi",
@@ -986,6 +978,14 @@
       "fiyat": 11999.0,
       "kategori": "Çalışma Sandalyesi",
       "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE975233.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Tommaboda koyu bej tekli koltuk",
+      "bilgi": "IKEA · Koltuk",
+      "fiyat": 12999.0,
+      "kategori": "Koltuk",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE999900.jpg"
     },
     {
       "emoji": "🗄️",

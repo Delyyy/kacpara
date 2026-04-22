@@ -1,67 +1,67 @@
 {
-  "guncelleme": "2026-04-19 14:58",
+  "guncelleme": "2026-04-22 07:23",
   "kaynak": "Truncgil Finans",
   "toplam_fiyat": 12,
   "fiyatlar": {
     "USD": {
       "isim": "1 ABD Doları",
       "kategori": "doviz",
-      "fiyat": 44.895
+      "fiyat": 44.9256
     },
     "EUR": {
       "isim": "1 Euro",
       "kategori": "doviz",
-      "fiyat": 52.8913
+      "fiyat": 52.7813
     },
     "GBP": {
       "isim": "1 İngiliz Sterlini",
       "kategori": "doviz",
-      "fiyat": 60.8054
+      "fiyat": 60.7105
     },
     "CHF": {
       "isim": "1 İsviçre Frangı",
       "kategori": "doviz",
-      "fiyat": 57.4619
+      "fiyat": 57.6132
     },
     "SAR": {
       "isim": "1 Suudi Riyali",
       "kategori": "doviz",
-      "fiyat": 11.9822
+      "fiyat": 11.9936
     },
     "GRA": {
       "isim": "Gram Altın",
       "kategori": "altin",
-      "fiyat": 6966.26
+      "fiyat": 6884.27
     },
     "HAS": {
       "isim": "Has Altın",
       "kategori": "altin",
-      "fiyat": 6931.43
+      "fiyat": 6849.85
     },
     "CEYREKALTIN": {
       "isim": "Çeyrek Altın",
       "kategori": "altin",
-      "fiyat": 11478.98
+      "fiyat": 11273.65
     },
     "YARIMALTIN": {
       "isim": "Yarım Altın",
       "kategori": "altin",
-      "fiyat": 22957.96
+      "fiyat": 22547.29
     },
     "TAMALTIN": {
       "isim": "Tam Altın",
       "kategori": "altin",
-      "fiyat": 45775.51
+      "fiyat": 44956.68
     },
     "CUMHURIYETALTINI": {
       "isim": "Cumhuriyet Altını",
       "kategori": "altin",
-      "fiyat": 47294.0
+      "fiyat": 46382.0
     },
     "GUMUS": {
       "isim": "Gümüş (gram)",
       "kategori": "altin",
-      "fiyat": 116.5
+      "fiyat": 113.39
     }
   }
 }

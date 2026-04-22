@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-04-21 07:26",
+  "guncelleme": "2026-04-22 07:24",
   "kaynak": "marketfiyati.org.tr (A101, BIM, Migros, Carrefour, SOK, TK)",
   "not": "Fiyat = eslesen tum urunlerin tum market fiyatlarinin medyani. Son 7 gun icinde guncellenmis, en az 2 market sarti.",
   "toplam_urun": 31,
@@ -8,18 +8,18 @@
       "emoji": "🍅",
       "isim": "1 kg domates",
       "bilgi": "Taze",
-      "fiyat": 134.45,
+      "fiyat": 109.0,
       "kac_market": 2,
       "kac_kayit": 2,
       "api_baslik": "Salkım Domates 1 Kg",
       "detay": [
         {
-          "market": "bim",
-          "fiyat": 129.0
+          "market": "carrefour",
+          "fiyat": 99.0
         },
         {
-          "market": "carrefour",
-          "fiyat": 139.9
+          "market": "bim",
+          "fiyat": 119.0
         }
       ]
     },
@@ -27,26 +27,30 @@
       "emoji": "🥒",
       "isim": "1 kg salatalık",
       "bilgi": "Taze",
-      "fiyat": 54.7,
-      "kac_market": 4,
-      "kac_kayit": 6,
+      "fiyat": 45.0,
+      "kac_market": 5,
+      "kac_kayit": 7,
       "api_baslik": "Salatalık 1 Kg",
       "detay": [
         {
           "market": "tarim_kredi",
-          "fiyat": 49.9
+          "fiyat": 44.9
         },
         {
-          "market": "bim",
-          "fiyat": 52.5
-        },
-        {
-          "market": "carrefour",
-          "fiyat": 53.4
+          "market": "sok",
+          "fiyat": 44.9
         },
         {
           "market": "a101",
-          "fiyat": 59.5
+          "fiyat": 45.9
+        },
+        {
+          "market": "carrefour",
+          "fiyat": 54.9
+        },
+        {
+          "market": "bim",
+          "fiyat": 55.0
         }
       ]
     },
@@ -54,7 +58,7 @@
       "emoji": "🍆",
       "isim": "1 kg patlıcan",
       "bilgi": "Taze",
-      "fiyat": 50.95,
+      "fiyat": 49.92,
       "kac_market": 5,
       "kac_kayit": 6,
       "api_baslik": "Tagem Topak Patlıcan 1 Kg",
@@ -64,16 +68,16 @@
           "fiyat": 24.9
         },
         {
-          "market": "migros",
-          "fiyat": 38.95
+          "market": "bim",
+          "fiyat": 49.0
         },
         {
-          "market": "bim",
-          "fiyat": 45.0
+          "market": "migros",
+          "fiyat": 49.95
         },
         {
           "market": "carrefour",
-          "fiyat": 58.4
+          "fiyat": 53.4
         },
         {
           "market": "a101",
@@ -85,18 +89,22 @@
       "emoji": "🌶️",
       "isim": "1 kg sivri biber",
       "bilgi": "Taze",
-      "fiyat": 169.93,
-      "kac_market": 2,
-      "kac_kayit": 2,
+      "fiyat": 159.9,
+      "kac_market": 3,
+      "kac_kayit": 3,
       "api_baslik": "Sivri Biber 1 Kg",
       "detay": [
+        {
+          "market": "sok",
+          "fiyat": 149.0
+        },
         {
           "market": "carrefour",
           "fiyat": 159.9
         },
         {
           "market": "migros",
-          "fiyat": 179.95
+          "fiyat": 169.95
         }
       ]
     },
@@ -104,26 +112,26 @@
       "emoji": "🍌",
       "isim": "1 kg muz",
       "bilgi": "Taze",
-      "fiyat": 109.25,
+      "fiyat": 119.25,
       "kac_market": 4,
       "kac_kayit": 6,
       "api_baslik": "Yerli Muz 1 Kg",
       "detay": [
         {
           "market": "tarim_kredi",
-          "fiyat": 94.9
+          "fiyat": 79.9
         },
         {
           "market": "bim",
-          "fiyat": 98.0
-        },
-        {
-          "market": "carrefour",
           "fiyat": 109.0
         },
         {
           "market": "a101",
           "fiyat": 122.2
+        },
+        {
+          "market": "carrefour",
+          "fiyat": 129.0
         }
       ]
     },
@@ -137,11 +145,11 @@
       "api_baslik": "Ekonomik Elma 1 Kg",
       "detay": [
         {
-          "market": "bim",
-          "fiyat": 89.0
+          "market": "tarim_kredi",
+          "fiyat": 79.0
         },
         {
-          "market": "tarim_kredi",
+          "market": "bim",
           "fiyat": 89.0
         },
         {
@@ -159,25 +167,29 @@
       "isim": "1 kg limon",
       "bilgi": "Taze",
       "fiyat": 99.0,
-      "kac_market": 4,
-      "kac_kayit": 5,
+      "kac_market": 5,
+      "kac_kayit": 7,
       "api_baslik": "Limon 1 Kg",
       "detay": [
         {
+          "market": "tarim_kredi",
+          "fiyat": 94.45
+        },
+        {
           "market": "bim",
-          "fiyat": 84.0
+          "fiyat": 99.0
         },
         {
           "market": "carrefour",
           "fiyat": 99.0
         },
         {
-          "market": "tarim_kredi",
-          "fiyat": 99.0
-        },
-        {
           "market": "a101",
           "fiyat": 99.5
+        },
+        {
+          "market": "sok",
+          "fiyat": 174.0
         }
       ]
     },
@@ -185,34 +197,34 @@
       "emoji": "🧅",
       "isim": "1 kg soğan",
       "bilgi": "Taze",
-      "fiyat": 14.93,
+      "fiyat": 22.2,
       "kac_market": 6,
       "kac_kayit": 6,
-      "api_baslik": "Soğan 1 Kg",
+      "api_baslik": "Kuru Soğan 1 Kg",
       "detay": [
         {
-          "market": "bim",
-          "fiyat": 9.75
-        },
-        {
           "market": "tarim_kredi",
-          "fiyat": 9.9
+          "fiyat": 13.9
         },
         {
           "market": "migros",
-          "fiyat": 13.95
-        },
-        {
-          "market": "a101",
-          "fiyat": 15.9
+          "fiyat": 14.9
         },
         {
           "market": "sok",
-          "fiyat": 15.9
+          "fiyat": 19.9
+        },
+        {
+          "market": "bim",
+          "fiyat": 24.5
+        },
+        {
+          "market": "a101",
+          "fiyat": 24.9
         },
         {
           "market": "carrefour",
-          "fiyat": 196.0
+          "fiyat": 154.95
         }
       ]
     },
@@ -220,9 +232,9 @@
       "emoji": "🍉",
       "isim": "1 kg karpuz",
       "bilgi": "Taze",
-      "fiyat": 54.45,
-      "kac_market": 2,
-      "kac_kayit": 2,
+      "fiyat": 69.9,
+      "kac_market": 3,
+      "kac_kayit": 3,
       "api_baslik": "Karpuz Kg",
       "detay": [
         {
@@ -230,8 +242,12 @@
           "fiyat": 49.0
         },
         {
+          "market": "sok",
+          "fiyat": 69.9
+        },
+        {
           "market": "carrefour",
-          "fiyat": 59.9
+          "fiyat": 69.9
         }
       ]
     },
@@ -253,12 +269,12 @@
           "fiyat": 89.5
         },
         {
-          "market": "migros",
-          "fiyat": 109.95
+          "market": "carrefour",
+          "fiyat": 101.9
         },
         {
-          "market": "carrefour",
-          "fiyat": 124.4
+          "market": "migros",
+          "fiyat": 109.95
         }
       ]
     },
@@ -268,7 +284,7 @@
       "bilgi": "Market",
       "fiyat": 63.95,
       "kac_market": 3,
-      "kac_kayit": 22,
+      "kac_kayit": 23,
       "api_baslik": "Carrefour Buğday Unu 1 Kg",
       "detay": [
         {
@@ -289,9 +305,9 @@
       "emoji": "🌾",
       "isim": "Bulgur 1 kg",
       "bilgi": "Market",
-      "fiyat": 49.75,
+      "fiyat": 49.85,
       "kac_market": 4,
-      "kac_kayit": 9,
+      "kac_kayit": 10,
       "api_baslik": "Saban Pilavlık Bulgur 1 Kg",
       "detay": [
         {
@@ -308,7 +324,7 @@
         },
         {
           "market": "carrefour",
-          "fiyat": 49.95
+          "fiyat": 59.95
         }
       ]
     },
@@ -343,11 +359,15 @@
       "emoji": "🫒",
       "isim": "Zeytinyağı 1 L",
       "bilgi": "Sızma",
-      "fiyat": 398.5,
-      "kac_market": 4,
+      "fiyat": 365.0,
+      "kac_market": 5,
       "kac_kayit": 23,
       "api_baslik": "Orkide Sızma Zeytinyağı 1 Lt",
       "detay": [
+        {
+          "market": "tarim_kredi",
+          "fiyat": 275.0
+        },
         {
           "market": "bim",
           "fiyat": 285.0
@@ -357,12 +377,12 @@
           "fiyat": 310.0
         },
         {
-          "market": "migros",
-          "fiyat": 449.95
+          "market": "carrefour",
+          "fiyat": 409.95
         },
         {
-          "market": "carrefour",
-          "fiyat": 459.95
+          "market": "migros",
+          "fiyat": 449.95
         }
       ]
     },
@@ -370,9 +390,9 @@
       "emoji": "🍝",
       "isim": "Barilla makarna 500 gr",
       "bilgi": "Market",
-      "fiyat": 52.95,
-      "kac_market": 4,
-      "kac_kayit": 6,
+      "fiyat": 59.5,
+      "kac_market": 5,
+      "kac_kayit": 7,
       "api_baslik": "Barilla Spagetti Makarna 500 Gr",
       "detay": [
         {
@@ -380,16 +400,20 @@
           "fiyat": 38.5
         },
         {
+          "market": "carrefour",
+          "fiyat": 39.71
+        },
+        {
           "market": "a101",
-          "fiyat": 52.95
+          "fiyat": 59.5
+        },
+        {
+          "market": "sok",
+          "fiyat": 59.95
         },
         {
           "market": "migros",
-          "fiyat": 52.95
-        },
-        {
-          "market": "carrefour",
-          "fiyat": 52.95
+          "fiyat": 59.95
         }
       ]
     },
@@ -424,9 +448,9 @@
       "emoji": "🥛",
       "isim": "SEK süt 1 L",
       "bilgi": "Tam yağlı",
-      "fiyat": 54.95,
+      "fiyat": 59.95,
       "kac_market": 3,
-      "kac_kayit": 4,
+      "kac_kayit": 5,
       "api_baslik": "Sek %1.5 Yağlı Süt 1 Lt",
       "detay": [
         {
@@ -439,7 +463,7 @@
         },
         {
           "market": "migros",
-          "fiyat": 63.95
+          "fiyat": 79.47
         }
       ]
     },
@@ -448,13 +472,17 @@
       "isim": "30'lu yumurta",
       "bilgi": "Market",
       "fiyat": 139.0,
-      "kac_market": 4,
-      "kac_kayit": 5,
-      "api_baslik": "Bili Bili Yumurta 30 Adet",
+      "kac_market": 5,
+      "kac_kayit": 6,
+      "api_baslik": "Anadolu Çiftliği M Yumurta 30 Adet",
       "detay": [
         {
+          "market": "sok",
+          "fiyat": 139.0
+        },
+        {
           "market": "bim",
-          "fiyat": 119.0
+          "fiyat": 139.0
         },
         {
           "market": "tarim_kredi",
@@ -497,11 +525,15 @@
       "emoji": "🧀",
       "isim": "Kaşar peyniri 500 gr",
       "bilgi": "Market",
-      "fiyat": 274.48,
-      "kac_market": 3,
-      "kac_kayit": 8,
-      "api_baslik": "Tarabya Kaşar Peyniri 500 Gr",
+      "fiyat": 269.95,
+      "kac_market": 4,
+      "kac_kayit": 9,
+      "api_baslik": "Mis Tam Yağlı Kaşar Peyniri 500 Gr",
       "detay": [
+        {
+          "market": "sok",
+          "fiyat": 210.0
+        },
         {
           "market": "carrefour",
           "fiyat": 242.47
@@ -520,14 +552,14 @@
       "emoji": "🧈",
       "isim": "Tereyağı 250 gr",
       "bilgi": "Market",
-      "fiyat": 183.47,
+      "fiyat": 189.97,
       "kac_market": 2,
       "kac_kayit": 4,
       "api_baslik": "Sana Tereyağ Lezzeti 250 Gr",
       "detay": [
         {
           "market": "bim",
-          "fiyat": 142.0
+          "fiyat": 155.0
         },
         {
           "market": "carrefour",
@@ -562,9 +594,9 @@
       "emoji": "🥤",
       "isim": "Ayran 1 L",
       "bilgi": "Market",
-      "fiyat": 55.2,
+      "fiyat": 53.95,
       "kac_market": 4,
-      "kac_kayit": 18,
+      "kac_kayit": 17,
       "api_baslik": "Torku Ayran 1 Lt",
       "detay": [
         {
@@ -572,16 +604,16 @@
           "fiyat": 47.25
         },
         {
-          "market": "a101",
-          "fiyat": 49.95
-        },
-        {
           "market": "carrefour",
           "fiyat": 54.48
         },
         {
+          "market": "a101",
+          "fiyat": 54.73
+        },
+        {
           "market": "migros",
-          "fiyat": 95.0
+          "fiyat": 59.5
         }
       ]
     },
@@ -589,17 +621,17 @@
       "emoji": "🥤",
       "isim": "Coca-Cola 1 L",
       "bilgi": "PET şişe",
-      "fiyat": 57.0,
+      "fiyat": 60.0,
       "kac_market": 2,
       "kac_kayit": 2,
       "api_baslik": "Coca-Cola 1 Lt",
       "detay": [
         {
-          "market": "carrefour",
-          "fiyat": 54.0
+          "market": "a101",
+          "fiyat": 60.0
         },
         {
-          "market": "a101",
+          "market": "carrefour",
           "fiyat": 60.0
         }
       ]
@@ -608,7 +640,7 @@
       "emoji": "⚡",
       "isim": "Red Bull 250 ml",
       "bilgi": "Market",
-      "fiyat": 60.0,
+      "fiyat": 50.95,
       "kac_market": 5,
       "kac_kayit": 24,
       "api_baslik": "Red Bull Şekersiz Enerji İçeceği 250 Ml",
@@ -618,15 +650,15 @@
           "fiyat": 50.95
         },
         {
+          "market": "carrefour",
+          "fiyat": 50.95
+        },
+        {
           "market": "bim",
           "fiyat": 52.5
         },
         {
           "market": "a101",
-          "fiyat": 60.0
-        },
-        {
-          "market": "carrefour",
           "fiyat": 60.0
         },
         {
@@ -743,7 +775,7 @@
         },
         {
           "market": "carrefour",
-          "fiyat": 412.42
+          "fiyat": 449.95
         }
       ]
     },
@@ -751,7 +783,7 @@
       "emoji": "🧼",
       "isim": "Fairy bulaşık tableti",
       "bilgi": "Market",
-      "fiyat": 369.48,
+      "fiyat": 387.95,
       "kac_market": 3,
       "kac_kayit": 8,
       "api_baslik": "Fairy Platinum Plus Limon Kokulu Tablet 22 Adet",
@@ -761,12 +793,12 @@
           "fiyat": 299.0
         },
         {
-          "market": "carrefour",
-          "fiyat": 369.0
-        },
-        {
           "market": "migros",
           "fiyat": 387.95
+        },
+        {
+          "market": "carrefour",
+          "fiyat": 626.95
         }
       ]
     },
@@ -775,25 +807,29 @@
       "isim": "Elidor şampuan 400 ml",
       "bilgi": "Market",
       "fiyat": 199.0,
-      "kac_market": 4,
-      "kac_kayit": 12,
+      "kac_market": 5,
+      "kac_kayit": 15,
       "api_baslik": "Elidor Şampuan Çeşitleri 400 Ml",
       "detay": [
         {
-          "market": "bim",
-          "fiyat": 119.0
+          "market": "tarim_kredi",
+          "fiyat": 114.9
         },
         {
-          "market": "tarim_kredi",
-          "fiyat": 169.0
+          "market": "migros",
+          "fiyat": 197.45
+        },
+        {
+          "market": "bim",
+          "fiyat": 199.0
+        },
+        {
+          "market": "sok",
+          "fiyat": 199.0
         },
         {
           "market": "a101",
           "fiyat": 199.0
-        },
-        {
-          "market": "migros",
-          "fiyat": 199.95
         }
       ]
     }
