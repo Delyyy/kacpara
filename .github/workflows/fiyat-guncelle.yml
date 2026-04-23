@@ -18,7 +18,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install requests
+      # Scrapling icin: static Fetcher (curl_cffi TLS impersonation) yeterli.
+      # [fetchers] extra'si playwright indirir; biz StealthyFetcher/DynamicFetcher
+      # kullanmadigimiz icin gereksiz — base scrapling + curl_cffi yeter.
+      - run: pip install requests scrapling curl_cffi
 
       - run: python doviz.py
 

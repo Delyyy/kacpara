@@ -1,24 +1,23 @@
 """
-Vatan Bilgisayar'dan elektronik urun fiyatlarini ceker.
-100+ urun, her kategori icin ~25-34 urun.
+Vatan Bilgisayar'dan elektronik urun fiyatlarini ceker. (Scrapling refactor)
+18 kategoriden 100+ urun.
 Cikti: otomatik_elektronik.json
+
+Cari HTTP: Scrapling Fetcher (TLS impersonation).
+Cari parse: CSS selectors (regex yerine).
 """
-import requests
 import json
 import sys
 import re
 import time
+import random
 import html as htmllib
 from datetime import datetime
 
-if sys.stdout.encoding.lower() != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8")
+from scrapling.fetchers import Fetcher
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
-}
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
 
 # (url_slug, emoji, kategori_isim, kac_urun_alinacak)
 KATEGORILER = [
@@ -42,91 +41,60 @@ KATEGORILER = [
     ("oyun-konsollari",    "🕹️", "Oyun Konsolu",         6),
 ]
 
-# HTML'den urunleri ayikla: product-list--fourth bloklari
-URUN_REGEX = re.compile(
-    r'<div class="product-list product-list--fourth">.*?'
-    r'<img[^>]+data-src="([^"]+)"[^>]+title="([^"]*)".*?'
-    r'<h3>(.*?)</h3>.*?'
-    r'<span class="product-list__price">(.*?)</span>',
-    re.DOTALL
-)
-
-# Daha esnek fallback (sadece isim + fiyat)
-URUN_REGEX_BASIT = re.compile(
-    r'<div class="product-list__product-name">\s*<h3>(.*?)</h3>.*?'
-    r'<span class="product-list__price">(.*?)</span>',
-    re.DOTALL
-)
-
 
 def temizle_isim(s):
-    """HTML entity ve fazla bosluklari temizle"""
-    s = htmllib.unescape(s).strip()
+    """HTML entity ve fazla bosluklari temizle."""
+    s = htmllib.unescape(s or "").strip()
     s = re.sub(r'\s+', ' ', s)
     return s
 
 
 def fiyat_parse(s):
     """'15.999' -> 15999.0  |  '15.999,50' -> 15999.50"""
+    if not s:
+        return None
     s = s.strip()
-    # Turk formati: nokta binlik, virgul ondalik
     if ',' in s:
-        # virgul ondalik
         integer, decimal = s.rsplit(',', 1)
         integer = integer.replace('.', '').replace(' ', '')
         try:
             return float(f'{integer}.{decimal}')
-        except:
+        except Exception:
             return None
     else:
         s = s.replace('.', '').replace(' ', '')
         try:
             return float(s)
-        except:
+        except Exception:
             return None
 
 
 def kategori_urunleri(slug, emoji, kategori_adi, limit):
-    """Bir kategori sayfasindan urun listesi cek.
-    Basit regex (isim + fiyat) kullanir, gorsel url'si de opsiyonel bulunur."""
+    """Kategori sayfasindan urun kartlarini CSS selector ile al."""
     url = f"https://www.vatanbilgisayar.com/{slug}/"
     try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        if r.status_code != 200:
-            print(f"  X {kategori_adi:20s} HTTP {r.status_code}")
+        page = Fetcher.get(url, impersonate="chrome", timeout=15)
+        if page.status != 200:
+            print(f"  X {kategori_adi:20s} HTTP {page.status}")
             return []
 
-        html = r.text
         urunler = []
         gorulen = set()
 
-        # Her urunun isim bloguna yakin fiyat ve resim bul
-        # Strateji: her h3 name'i bul, ondan sonraki ilk price'i ve oncesindeki ilk img'yi al
-        name_iter = list(re.finditer(
-            r'<div class="product-list__product-name">\s*<h3>(.*?)</h3>',
-            html, re.DOTALL
-        ))
-
-        for nm in name_iter:
-            isim = temizle_isim(nm.group(1))
+        # Vatan'da her urun karti .product-list-link ile sarili
+        # (hem .product-list--fourth grid'i hem .product-list--list-page listesi icin calisir)
+        for card in page.css('.product-list-link'):
+            isim = temizle_isim(card.css('.product-list__product-name h3::text').get())
             if not isim or isim in gorulen:
                 continue
 
-            # Bu isimden sonraki ilk fiyat
-            sonrasi = html[nm.end():nm.end()+2000]
-            fm = re.search(r'<span class="product-list__price">([^<]+)</span>', sonrasi)
-            if not fm:
-                continue
-            fiyat = fiyat_parse(fm.group(1))
+            fiyat_str = card.css('.product-list__price::text').get()
+            fiyat = fiyat_parse(fiyat_str)
             if not fiyat or fiyat < 50:
                 continue
 
-            # Bu ismin ONCESI'ndeki (son 2000 karakterde) img data-src
-            oncesi = html[max(0, nm.start()-2000):nm.start()]
-            im = None
-            for m in re.finditer(r'data-src="(https?://[^"]+\.jpg[^"]*)"', oncesi):
-                im = m.group(1)
-            # im = en sonuncu = en yakin = bu urunun resmi
+            # Lazy-load: data-src gercek gorseli tutuyor (src = placeholder)
+            gorsel = card.css('img::attr(data-src)').get()
 
             gorulen.add(isim)
             urun = {
@@ -136,9 +104,10 @@ def kategori_urunleri(slug, emoji, kategori_adi, limit):
                 "fiyat": fiyat,
                 "kategori": kategori_adi,
             }
-            if im:
-                urun["gorsel"] = im
+            if gorsel:
+                urun["gorsel"] = gorsel
             urunler.append(urun)
+
             if len(urunler) >= limit:
                 break
 
@@ -150,16 +119,15 @@ def kategori_urunleri(slug, emoji, kategori_adi, limit):
 
 
 def main():
-    print("Vatan Bilgisayar'dan elektronik fiyatlari cekiliyor...")
+    print("Vatan Bilgisayar'dan elektronik fiyatlari cekiliyor (Scrapling)...")
     print("-" * 60)
 
     tum_urunler = []
     for slug, emoji, ad, limit in KATEGORILER:
         urunler = kategori_urunleri(slug, emoji, ad, limit)
         tum_urunler.extend(urunler)
-        time.sleep(0.3)  # nazik ol, rate-limit olma
+        time.sleep(random.uniform(0.25, 0.45))  # nazik ol, jitter ile
 
-    # Fiyatlara gore sirala (oyun icin gorsel dengeli dagilim)
     tum_urunler.sort(key=lambda x: x["fiyat"])
 
     sonuc = {
