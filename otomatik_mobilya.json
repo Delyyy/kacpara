@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-04-22 07:28",
+  "guncelleme": "2026-04-23 07:31",
   "kaynak": "ikea.com.tr",
   "toplam_urun": 149,
   "urunler": [
@@ -338,14 +338,6 @@
       "fiyat": 1499.0,
       "kategori": "Dış Mekan",
       "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE880061.jpg"
-    },
-    {
-      "emoji": "🛋️",
-      "isim": "Diseröd kırmızı tekli koltuk",
-      "bilgi": "IKEA · Koltuk",
-      "fiyat": 1599.0,
-      "kategori": "Koltuk",
-      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE942787.jpg"
     },
     {
       "emoji": "💡",
@@ -1026,6 +1018,14 @@
       "fiyat": 15999.0,
       "kategori": "Karyola",
       "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE947203.jpg"
+    },
+    {
+      "emoji": "🛋️",
+      "isim": "Huş kaplama tekli koltuk",
+      "bilgi": "IKEA · Koltuk",
+      "fiyat": 15999.0,
+      "kategori": "Koltuk",
+      "gorsel": "https://image-ikea.mncdn.com/urunler/2000_2000/PE955317.jpg"
     },
     {
       "emoji": "📺",
